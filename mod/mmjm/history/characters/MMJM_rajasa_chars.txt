@@ -1,0 +1,176 @@
+#Kingdom of Singhasari
+
+#Ken Angrok, Founder
+rajasa.1 = {
+	name = "Ken Angrok"
+	dynasty = dynn_rajasa
+
+	faith = vaishnavism
+	culture = java_culture
+
+
+	trait = education_intrigue_4 #Foster Father was an thief
+	trait = deceitful #Foster Father was an thief
+	trait = ambitious #After seeing beauty of Ken Dedes he swore to do everything to "get" her
+	trait = zealous #Belived to be an Avatar of Vishnu
+	trait = wrathful #He fricking stabbed a smith who was creating an weapon he can use to kill Tunggul Ametung
+
+	#My estimate since well, there is nothing on when he was born.
+	1177.1.1 = {
+		birth = yes
+	}
+
+	1222.1.1 = {
+		effect = {
+			set_name = "Sri Ranggah"
+			marry = rajasa.4
+		}
+	}
+
+	1227.1.1 = {
+		death = yes #assasinated by son of Tunggul Ametung
+	}
+}
+
+#Ken Umang, Ken Angrok Concubine
+#THERE IS NOTHING ABOUT HER, EVEN DATE OF BIRTH AND DEATH IS FICTIONAL :c
+rajasa.2 = {
+	name = "Ken Umang"
+	female = yes
+
+	#faith = ??
+	culture = java_culture
+
+	trait = education_diplomacy_2
+	trait = beauty_good_1
+	trait = honest
+	trait = lustful
+	trait = trusting	
+
+	1187.1.1 = {
+		birth = yes
+	}
+	1250.1.1 = {
+		death = yes
+	}
+
+}
+
+#Tohajaya, Ken Angrok & Ken Umang son, 3rd King
+rajasa.3 = {
+	name = "Tohajaya"
+
+	#faith = ??
+	culture = java_culture
+
+	dynasty = dynn_rajasa
+
+	father = rajasa.1
+	mother = rajasa.2
+
+	#Fictional
+	trait = education_martial_2
+	trait = vengeful
+	trait = just
+	trait = ambitious
+
+
+	#My estimate since well, there is nothing on when he was born.
+	1230.1.1 = {
+		birth = yes
+	}
+
+	1250.1.1 = {
+		death = yes
+	}
+}
+
+#Ken Dedes, Wife of Tunggul Ametung & Ken Angrok
+rajasa.4 = {
+	name = "Ken Dedes"
+	female = yes
+
+	faith = vajrayana 
+	culture = java_culture
+
+	#traits based on description 
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = deceitful
+	trait = fickle
+	trait = beauty_good_3
+
+	#Pure speculation....
+	1194.1.1 = {
+		birth = yes
+	}
+
+	1240.1.1 = {
+		death = yes
+	}
+}
+
+#Tunggul Ametung ruler of Tumapel
+rajasa.5 = {
+	name = "Tunggul"
+
+	#faith = ??
+	culture = java_culture
+
+	dynasty = dynn_ametung
+
+	#Fictional
+	1170.1.1 = {
+		birth = yes
+	}
+
+	1210.1.1 = {
+		marry = rajasa.4
+	}
+
+	#Fictional mostly
+	trait = education_martial_3
+	trait = lustful
+	trait = gregarious 
+	trait = brave 
+	trait = physique_good_2
+
+	1222.1.1 = {
+		death = {
+			reason = death_murder
+			killer = rajasa.1
+		}
+	}
+}
+
+#Anusapati, Second Ruler of Singhasari, murdurer of Ken Angrok
+rajasa.6 = {
+	name = "Anusapati"
+
+	#faith = ??
+	culture = java_culture
+
+	dynasty = dynn_ametung
+
+	#fictional
+	trait = education_intrigue_2
+	trait = vengeful
+	trait = deceitful
+	trait = paranoid
+	trait = physique_good_1
+	trait = beauty_good_1
+
+	father = rajasa.5
+	mother = rajasa.4
+
+	1214.1.1 = {
+		birth = yes		
+	}
+
+	1248.1.1 = {
+		death = {
+			reason = death_murder
+			killer = rajasa.3
+		}		
+	}
+}
