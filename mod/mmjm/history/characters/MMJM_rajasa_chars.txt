@@ -1,3 +1,6 @@
+#Rajasa Dynasty Characters
+#Made By Typical
+
 #Kingdom of Singhasari
 
 #Ken Angrok, Founder
@@ -7,7 +10,7 @@ rajasa.1 = {
 
 	faith = vaishnavism
 	culture = java_culture
-
+	disallow_random_traits = yes
 
 	trait = education_intrigue_4 #Foster Father was an thief
 	trait = deceitful #Foster Father was an thief
@@ -38,6 +41,8 @@ rajasa.2 = {
 	name = "Ken Umang"
 	female = yes
 
+	disallow_random_traits = yes
+
 	#faith = ??
 	culture = java_culture
 
@@ -64,6 +69,7 @@ rajasa.3 = {
 	culture = java_culture
 
 	dynasty = dynn_rajasa
+	disallow_random_traits = yes
 
 	father = rajasa.1
 	mother = rajasa.2
@@ -92,6 +98,7 @@ rajasa.4 = {
 
 	faith = vajrayana 
 	culture = java_culture
+	disallow_random_traits = yes	
 
 	#traits based on description 
 	trait = education_diplomacy_3
@@ -118,6 +125,7 @@ rajasa.5 = {
 	culture = java_culture
 
 	dynasty = dynn_ametung
+	disallow_random_traits = yes	
 
 	#Fictional
 	1170.1.1 = {
@@ -150,7 +158,9 @@ rajasa.6 = {
 	#faith = ??
 	culture = java_culture
 
-	dynasty = dynn_ametung
+	dynasty = dynn_rajasa
+	dynasty_house = house_ametung
+	disallow_random_traits = yes	
 
 	#fictional
 	trait = education_intrigue_2
@@ -167,10 +177,157 @@ rajasa.6 = {
 		birth = yes		
 	}
 
-	1248.1.1 = {
+	1250.1.1 = {
 		death = {
 			reason = death_murder
 			killer = rajasa.3
 		}		
 	}
+}
+
+#Son of Ken Angrok & Ken Dedes
+#Another no name, only known from name, and the fact that his son was co-ruler :c
+#Who ever was writing first chronicle of Rajasa dynasty, i hope he is now in hell
+rajasa.7 = {
+	name = "Mahisa Wong Ateleng"
+
+	#faith = ??
+	culture = java_culture
+	disallow_random_traits = yes
+
+	dynasty = dynn_rajasa
+
+	#im not going to write anything...
+	trait = education_martial_1
+	trait = wrathful
+	trait = lazy
+	trait = gregarious
+	trait = physique_bad_2
+
+	father = rajasa.1
+	mother = rajasa.4
+
+	#fictional
+
+	1224.1.1 = {
+		birth = yes
+	}
+
+	1456.1.1 = {
+		death = yes
+	}
+}
+
+#4th Ruler of Singhasari, Son of Anusapati
+rajasa.8 = {
+	name = "Rangga Wuni"
+	dynasty = dynn_rajasa
+	dynasty_house = house_ametung
+
+	culture = java_culture
+	religion = vaishnavism
+
+	father = rajasa.6
+
+	disallow_random_traits = yes
+
+	#traits
+	trait = education_stewardship_3
+	trait = zealous
+	trait = wrathful
+	trait = fickle
+	trait = weak
+
+	1226.1.1 = {
+		birth = yes
+	}
+	1250.1.1 = {
+		effect = {
+			set_name = "Wishnu Wardhana"
+		}
+	}
+	1268.1.1 = {
+		death = yes
+	}
+}
+
+#Mahisa Champaka, son of Mahisa Wong Ateleng co-ruler of Singhasari during Rangga Wuni reign
+rajasa.9 = {
+	name = "Mahisa Champaka"
+	dynasty = dynn_rajasa
+
+	#faith = ??
+	culture = java_culture
+
+	disallow_random_traits = yes
+
+	trait = education_martial_2
+	trait = content
+	trait = gregarious
+	trait = patient
+
+	1239.1.1 = {
+		birth = yes
+	}
+	1250.1.1 = {
+		effect = {
+			set_name = "Narasimhamurti"
+		}
+	}
+	1287.1.1 = {
+		death = yes
+	}
+
+}
+
+#Daughter of Mahisa Champaka, wife of Prince Jayadharma
+rajasa.10 = {
+	name = "Lembu Tal"
+	dynasty = dynn_rajasa
+	female = yes
+
+	culture = java_culture
+	#faith = 
+
+	trait = beauty_good_1
+
+	1272.1.1 = {
+		birth = yes
+	}
+	1280.1.1 = {
+		trait = bossy
+		trait = charming
+		trait = just
+	}
+	1288.1.1 = {
+		trait = education_diplomacy_3
+		trait = gregarious
+		trait = arrogant
+	}
+	1330.1.1 = {
+		death = yes
+	}
+}
+
+#Kertanegara son of Rangga Wuni, 5th ruler of Singhasari
+rajasa.11 = {
+	name = "Kertanegara"
+	dynasty = dynn_rajasa
+	dynasty_house = house_ametung
+
+	#faith
+	culture = java_culture
+
+	trait = education_learning_3
+	trait = ambitious
+	trait = zealous
+	trait = generous
+
+	1247.1.1 = {
+		birth = yes
+	}
+	1292.1.1 = {
+		death = yes
+	}
+
 }
