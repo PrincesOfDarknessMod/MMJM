@@ -1,6 +1,7 @@
 # The Cursed Kris of Mpu Gandring https://en.wikipedia.org/wiki/Ken_Arok#Kris_of_Mpu_Gandring
 
 # Events for The Cursed Kris of Mpu Gandring
+	#50 Legend of theCursed Kris of Mpu Gandring
 	#100 Ken Arok Gives Up Crime to Get a Real Job
 	#200 Blinded by the Light, Another Runner in the Night
 	#300 The Kris of Mpu Gandring
@@ -14,21 +15,43 @@
 	#1100 Give the Cursed Kris to a Rival
 	#1200 Keep the Cursed Kris for Myself
 
-# Bu Sparc, Lead Developer Princes of Darkness Mod 
+# By Sparc, Lead Developer Princes of Darkness Mod 
 
 namespace = mmjm_cursed_kris
+
+mmjm_cursed_kris.50 = {
+	type = character_event
+	title = mmjm_cursed_kris.50.t
+	desc = mmjm_cursed_kris.50.desc
+	theme = faith
+
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	
+	
+	option = {
+		name = mmjm_cursed_kris.50.option.a
+		trigger_event = mmjm_cursed_kris.100
+	}
+	
+	option = {
+		name = mmjm_cursed_kris.50.option.b
+	}
+}
 
 mmjm_cursed_kris.100 = {
 	type = character_event
 	title = mmjm_cursed_kris.100.t
 	desc = mmjm_cursed_kris.100.desc
-	theme = intrigue
+	theme = peasant
 	
 	left_portrait = {
 		character = scope:ken_angrok
 		animation = personality_bold
 	}	
-	left_portrait = {
+	right_portrait = {
 		character = scope:tunggul_ametung
 		animation = bored
 	}
@@ -58,8 +81,9 @@ mmjm_cursed_kris.200 = {
 	type = character_event
 	title = mmjm_cursed_kris.200.t
 	desc = mmjm_cursed_kris.200.desc
-	theme = hunt_activity
-
+#	theme = hunt_activity
+	theme = romance_scheme
+	
 	left_portrait = {
 		character = scope:ken_angrok
 		animation = ecstasy
