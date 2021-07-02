@@ -10,6 +10,10 @@ bali.1 = {
 	culture = bali_culture
 	#faith = ??
 
+	824.1.1 = {
+		birth = yes
+	}
+
 	880.1.1 = {
 		death = yes
 	}
@@ -22,6 +26,10 @@ bali.2 = {
 
 	culture = bali_culture
 	#faith = ??
+
+	856.1.1 = {
+		birth = yes
+	}
 
 	914.1.1 = {
 		death = yes
@@ -36,6 +44,10 @@ bali.3 = {
 	culture = bali_culture
 	#faith = ??
 
+	884.1.1 = {
+		birth = yes
+	}
+
 	942.1.1 = {
 		death = yes
 	}
@@ -48,6 +60,10 @@ bali.4 = {
 
 	culture = bali_culture
 	#faith = ??
+
+	903.1.1 = {
+		birth = yes
+	}
 
 	967.1.1 = {
 		death = yes
@@ -62,6 +78,10 @@ bali.5 = {
 	culture = bali_culture
 	#faith = ??
 
+	913.1.1 = {
+		birth = yes
+	}
+
 	967.1.1 = { #i assume so??
 		death = yes
 	}		
@@ -74,6 +94,10 @@ bali.6 = {
 
 	culture = bali_culture
 	#faith = ??
+
+	920.1.1 = {
+		birth = yes
+	}
 
 	968.1.1 = { #i assume so??
 		death = yes
@@ -90,6 +114,10 @@ bali.7 = {
 	culture = bali_culture
 	#faith = ??
 
+	937.1.1 = {
+		birth = yes
+	}
+
 	983.1.1 = { #i assume so??
 		death = yes
 	}	
@@ -105,6 +133,10 @@ bali.8 = {
 	culture = bali_culture
 	#faith = ??
 
+	948.1.1 = {
+		birth = yes
+	}
+
 	988.1.1 = { #i assume so??
 		death = yes
 	}		
@@ -117,6 +149,10 @@ bali.9 = {
 
 	culture = bali_culture
 	#faith = ??
+
+	971.1.1 = {
+		birth = yes
+	}
 
 	1011.1.1 = {
 		death = yes
@@ -131,6 +167,10 @@ bali.10 = {
 	culture = bali_culture
 	#faith = ??
 
+	971.1.1 = {
+		birth = yes
+	}
+
 	1011.1.1 = { #i assume so??
 		death = yes
 	}
@@ -143,6 +183,10 @@ bali.11 = {
 
 	culture = bali_culture
 	#faith = ??
+
+	974.1.1 = {
+		birth = yes
+	}
 
 	1015.1.1 = { #i assume so??
 		death = yes
@@ -159,6 +203,10 @@ bali.12 = {
 	culture = bali_culture
 	#faith = ??
 
+	1005.1.1 = {
+		birth = yes
+	}
+
 	1072.1.1 = { #i assume so??
 		death = yes
 	}
@@ -171,6 +219,10 @@ bali.13 = {
 
 	culture = bali_culture
 	#faith = ??
+
+	1031.1.1 = {
+		birth = yes
+	}
 
 	1098.1.1 = { #i assume so??
 		death = yes
@@ -185,6 +237,10 @@ bali.14 = {
 	culture = bali_culture
 	#faith = ??
 
+	1075.1.1 = {
+		birth = yes
+	}
+
 	1133.1.1 = { #i assume so??
 		death = yes
 	}
@@ -197,6 +253,10 @@ bali.15 = {
 
 	culture = bali_culture
 	#faith = ??
+
+	1099.1.1 = {
+		birth = yes
+	}
 
 	1173.1.1 = { #i assume so??
 		death = yes
@@ -211,6 +271,10 @@ bali.16 = {
 	culture = bali_culture
 	#faith = ??
 
+	1133.1.1 = {
+		birth = yes
+	}
+
 	1198.1.1 = { #i assume so??
 		death = yes
 	}
@@ -223,6 +287,10 @@ bali.17 = {
 
 	culture = bali_culture
 	#faith = ??
+
+	1187.1.1 = {
+		birth = yes
+	}
 
 	1284.1.1 = { #i assume so??
 		death = yes
@@ -237,6 +305,10 @@ bali.18 = {
 	culture = bali_culture
 	#faith = ??
 
+	1279.1.1 = {
+		birth = yes
+	}
+
 	1324.1.1 = { #i assume so??
 		death = yes
 	}
@@ -249,6 +321,10 @@ bali.19 = {
 
 	culture = bali_culture
 	#faith = ??
+
+	1278.1.1 = {
+		birth = yes
+	}
 
 	1325.1.1 = { #i assume so??
 		death = yes
