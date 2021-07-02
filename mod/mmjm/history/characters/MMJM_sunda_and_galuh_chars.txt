@@ -1,0 +1,291 @@
+
+#Tarusbawa Sunda - king of sunda
+sunda.1 = {
+	name = "Tarusbawa"
+	dynasty = dynn_sunda
+
+	723.1.1 = {
+		death = yes
+	}
+}
+
+#Wretikandayun Sunda - ruler of Galuh, demanded separation of Galuh from Sunda
+
+sunda.2 = {
+	name = "Wretikandayun"
+	dynasty = dynn_sunda
+
+	702.1.1 = {
+		death = yes
+	}
+}
+
+#Mandiminyak  - ruler of galuh, here a Wretikandayun son
+sunda.3 = {
+	name = "Mandiminyak"
+	dynasty = dynn_sunda
+
+	709.1.1 = {
+		death = yes
+	}
+}
+
+#Sena/Bratasena - ruler of galuh, here a Mandiminyak son
+sunda.4 = {
+	name = "Sena"
+	dynasty = dynn_sunda
+
+	716.1.1 = {
+		death = yes
+	}	
+}
+
+#Purbasora - ruler of Galuh - rebelled against sena - grandson of Wretikandayun
+sunda.4 = {
+	name = "Purbasora"
+	dynasty = dynn_sunda
+
+	723.1.1 = {
+		death = yes
+	}	
+}
+
+#Ruler of Sunda, Galuh and Mataram son of Sena's sister established mataran kingdom 
+sunda.5 = {
+	name = "Sanjaya"
+	dynasty = dynn_sunda
+
+	732.1.1 = {
+		death = yes
+	}
+}
+
+#Ruler of Sunda and Galuh, son of Sanjaya
+sunda.6 = {
+	name = "Rakeyan Panaraban"
+	dynasty = dynn_sunda
+
+	739.1.1 = {
+		death = yes
+	}
+}
+
+#Ruler of Sunda
+sunda.7 = {
+	name = "Rakeyan Banga"
+	dynasty = dynn_sunda
+
+	766.1.1 = {
+		death = yes
+	}	
+}
+
+#Ruler of Sunda
+sunda.8 = {
+	name = "Rakeyan Medang"
+	dynasty = dynn_sunda
+
+	783.1.1 = {
+		death = yes
+	}	
+}
+
+#Ruler of Sunda
+sunda.9 = {
+	name = "Prabu Gilingwesi"
+	dynasty = dynn_sunda
+
+	795.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda
+sunda.10 = {
+	name = "Pucukbumi Darmeswara"
+	dynasty = dynn_sunda
+
+	819.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda and Galuh
+sunda.11 = {
+	name = "Prabu Gajah Kulon"
+	dynasty = dynn_sunda
+
+	891.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda and Galuh
+sunda.12 = {
+	name = "Prabu Darmaraksa"
+	dynasty = dynn_sunda
+
+	895.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda
+sunda.13 = {
+	name = "Windusakti Prabu Dewageng"
+	dynasty = dynn_sunda
+
+	913.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda
+sunda.14 = {
+	name = "Rakeyan Kemuning Gading"
+	dynasty = dynn_sunda
+
+	916.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda
+sunda.15 = {
+	name = "Rakeyan Jayagiri Prabu"
+	dynasty = dynn_sunda
+
+	942.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda
+sunda.16 = {
+	name = "Prabu Resi Atmayadarma"
+	dynasty = dynn_sunda
+
+	954.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda
+sunda.17 = {
+	name = "Limbur Kancana"
+	dynasty = dynn_sunda
+
+	964.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda
+sunda.18 = {
+	name = "Prabu Munding Ganawirya"
+	dynasty = dynn_sunda
+
+	973.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda
+sunda.19 = {
+	name = "Prabu Jayagiri Rakeyan"
+	dynasty = dynn_sunda
+
+	989.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda
+sunda.20 = {
+	name = "Prabu Brajawisesa"
+	dynasty = dynn_sunda
+
+	1012.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda
+sunda.21 = {
+	name = "Prabu Dewa Sanghyang"
+	dynasty = dynn_sunda
+
+	1019.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda & Galuh
+sunda.20 = {
+	name = "Prabu Sanghyang Ageng"
+	dynasty = dynn_sunda
+
+	1030.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda & Galuh, Offspring of Srivijaya princess and Sunda King, son in-law of King Dharmawangsa of Medang. Proclaimed independence from Srivijaya by assuming the title "Maharaja".
+sunda.21 = {
+	name = "Prabu Detya Maharaja"
+	dynasty = dynn_sunda
+
+	1042.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda & Galuh
+sunda.22 = {
+	name = "Dharmaraja"
+	dynasty = dynn_sunda
+
+	1064.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda & Galuh
+sunda.23 = {
+	name = "Prabu Langlangbhumi"
+	dynasty = dynn_sunda
+
+	1154.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda & Galuh
+sunda.24 = {
+	name = "Rakeyan Jayagiri"
+	dynasty = dynn_sunda
+
+	1156.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler of Sunda & Galuh
+sunda.25 = {
+	name = "Prabu Dharmakusumah"
+	dynasty = dynn_sunda
+
+	1175.1.1 = {
+		death = yes
+	}		
+}
+
+#Ruler Sunda and Galuhson of Dharmasiksa, married Dyah Lembu Tal of Singhasari, and have a son Wijaya. Jayadharma died in boyhood and Dyah lembu Tal returned to Singhasari. Wijaya later established Majapahit. Rakeyan Saunggalah, Jayadharma's brother, succeeded Dharmasiksa 
+sunda.26 = {
+	name = "Prabu Guru Dharmasiksa"
+	dynasty = dynn_sunda
+
+	1297.1.1 = {
+		death = yes
+	}		
+}
