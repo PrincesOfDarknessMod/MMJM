@@ -314,9 +314,9 @@ rajasa.11 = {
 	name = "Kertanegara"
 	dynasty = dynn_rajasa
 	dynasty_house = house_ametung
-
 	#faith
-	culture = java_culture
+	religion = shaivism
+	culture = malay #java_culture
 
 	trait = education_learning_3
 	trait = ambitious

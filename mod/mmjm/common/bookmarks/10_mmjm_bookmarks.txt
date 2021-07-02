@@ -1,0 +1,24 @@
+﻿bm_1280_mmjm = {
+	start_date = 1280.1.1
+	is_playable = yes
+
+	# 
+	character = {
+		name = "bookmark_1280_mjm_kertanegara"
+		dynasty = dynn_rajasa
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1247.1.1
+		title = k_sumatra
+		government = feudal_government
+		culture = malay #javanese
+		religion = shaivism #Shiva-Buddhism
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = rajasa.11
+		position = { 1000 500 }
+
+		animation = ecstasy 
+	}
+
+
+}
