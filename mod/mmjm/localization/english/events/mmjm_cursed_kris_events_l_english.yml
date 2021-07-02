@@ -1,7 +1,13 @@
 ﻿l_english:
 
- mmjm_cursed_kris.100.t:0 "[ken_angrok.GetFirstName]  Gives Up Crime to Get a Real Job"
- mmjm_cursed_kris.100.desc:0 "Young Ken Angrok  was the most cunning thief in Kediri. Doing much mischief and crimes, he was known all the way to the capital. Many people were sent to catch him, but none were successful.\n\nOne day Ken Angrok  met with Mpu Lohgawe, an Indian rishi who patiently taught Ken Angrok  to abandon his sinful life and start a new life. Lohgawe proclaimed Arok as an avatar of Vishnu. His effort was successful and later he managed to get Ken Angrok  to become an attendant of [tunggul_ametung.GetFullName], a powerful regional leader of the Tumapel."
+ mmjm_cursed_kris.50.t:0 "Legend of the Cursed Kris of Mpu Gandring"
+ mmjm_cursed_kris.50.desc:0 "In the temples of Indonesia, you can hear the tale of the rise of the Kingdom of Singhasari and the Rajasa dynasty. It is a tale of lust, intrigue, ambition and a magical blade.  It is also a lesson of curses and karma. Shall you listen to the tale and take what wisdom you can from it?"
+ mmjm_cursed_kris.50.option.a:0 "Hear more of the legend" 
+ mmjm_cursed_kris.50.option.a.tt:0 ""
+ mmjm_cursed_kris.50.option.b:0 "This does not interest me."
+ 
+ mmjm_cursed_kris.100.t:0 "Give Up Crime to Get a Real Job"
+ mmjm_cursed_kris.100.desc:0 "Young [ken_angrok.GetFirstName] was the most cunning thief in Kediri. Doing much mischief and crimes, he was known all the way to the capital. Many people were sent to catch him, but none were successful.\n\nOne day Ken Angrok  met with Mpu Lohgawe, an Indian rishi who patiently taught Ken Angrok  to abandon his sinful life and start a new life. Lohgawe proclaimed Arok as an avatar of Vishnu. His effort was successful and later he managed to get Ken Angrok  to become an attendant of [tunggul_ametung.GetFullName], a powerful regional leader of the Tumapel."
  mmjm_cursed_kris.100.option.a:0 "Hear more of the legend" 
  mmjm_cursed_kris.100.option.a.tt:0 ""
  mmjm_cursed_kris.100.option.b:0 "I have heard enough, this does not interest me."
