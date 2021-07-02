@@ -754,12 +754,10 @@ accessory_genes = {
 			index = 52
 			male = {
 				5 = male_headgear_secular_indian_royalty_01
-				5 = male_headgear_secular_mmjm_royalty_01
 				
 			}
 			female = {
 				5 = female_headgear_secular_indian_royalty_01
-				5 = female_headgear_secular_mmjm_royalty_01
 				
 			}
 			boy = male
@@ -1108,6 +1106,42 @@ accessory_genes = {
 			female = {
 				3 = empty
 				1 = female_headgear_secular_rtt_nobility_01_low
+			}
+			boy = male
+            girl = female
+		}
+		
+		mmjm_common = {
+			index = 78
+			male = {
+				1 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = male
+            girl = female
+		}
+		
+		mmjm_nobility = {
+			index = 79
+			male = {
+				1 = empty # placeholder
+			}
+			female = {
+				1 = empty # placeholder
+			}
+			boy = male
+            girl = female
+		}
+		
+		mmjm_royalty = {
+			index = 80
+			male = {
+				1 = male_headgear_secular_mmjm_royalty_01
+			}
+			female = {
+				1 = female_headgear_secular_mmjm_royalty_01
 			}
 			boy = male
             girl = female
