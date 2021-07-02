@@ -266,7 +266,9 @@ accessory_genes = {
 			index = 4
 			male = {
 				# 1 = male_legwear_secular_mena_war_nobility_01
-				1 = male_legwear_secular_mmjm_common_01
+				# 1 = male_legwear_secular_mmjm_common_01
+				# 1 = male_legwear_secular_mmjm_high_nobility_01
+				1 = male_legwear_secular_mmjm_royalty_01
 			}
 			female = {
 				1 = female_legwear_secular_mena_war_nobility_01
