@@ -1,0 +1,75 @@
+﻿# Titular Titles
+
+e_kambujadesa = {
+    color = { 253 40 121 }
+    color2 = { 255 255 255 }
+
+    definite_form = yes
+    capital = c_hariharalaya
+    ruler_uses_title_name = yes
+    destroy_if_invalid_heir = yes
+}
+
+d_tondo = {
+	color = { 232 12 18 }
+    color2 = { 255 255 255 }
+
+    definite_form = yes
+    capital = c_tondo
+}
+d_maynila = {
+	color = { 74 105 168 }
+    color2 = { 255 255 255 }
+
+    definite_form = yes
+    capital = c_maynila
+}
+d_caboloan = {
+	color = { 98 134 38 }
+    color2 = { 255 255 255 }
+
+    definite_form = yes
+    capital = c_pangasinan
+}
+d_mongkawng = {
+    color = { 213 58 96 }
+    color2 = { 255 255 255 }
+
+    definite_form = yes
+    capital = c_mongkawng
+}
+d_hsenwi = {
+    color = { 123 153 155 }
+    color2 = { 255 255 255 }
+
+    definite_form = yes
+    capital = c_hsenwi
+}
+d_hsipaw = {
+	color = { 178 119 128 }
+    color2 = { 255 255 255 }
+
+    definite_form = yes
+    capital = c_hsipaw
+}
+d_mongkung = {
+	color = { 127 27 41 }
+	color2 = { 255 255 255 }
+
+    definite_form = yes
+    capital = c_mongkung
+}
+d_yawnghwe = {
+    color = { 120 38 13 }
+    color2 = { 255 255 255 }
+
+    definite_form = yes
+    capital = c_yawnghwe
+}
+d_mongnai = {
+    color = { 212 159 144 }
+    color2 = { 255 255 255 }
+
+    definite_form = yes
+    capital = c_mongnai
+}
