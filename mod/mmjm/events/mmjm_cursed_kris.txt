@@ -1,0 +1,281 @@
+# The Cursed Kris of Mpu Gandring https://en.wikipedia.org/wiki/Ken_Arok#Kris_of_Mpu_Gandring
+
+# Events for The Cursed Kris of Mpu Gandring
+	#100 Ken Arok Gives Up Crime to Get a Real Job
+	#200 Blinded by the Light, Another Runner in the Night
+	#300 The Kris of Mpu Gandring
+	#400 Curse of Mpu Gandring
+	#500 The Kris Changes Hands
+	#600 The Death of Tunggul Ametung
+	#700 King of Singasari
+	#800 The Curse and the Death of Kings
+	#900 Search for the Cursed Kris
+	#1000 Acquire the Cursed Kris
+	#1100 Give the Cursed Kris to a Rival
+	#1200 Keep the Cursed Kris for Myself
+
+# Bu Sparc, Lead Developer Princes of Darkness Mod 
+
+namespace = mmjm_cursed_kris
+
+mmjm_cursed_kris.100 = {
+	type = character_event
+	title = mmjm_cursed_kris.100.t
+	desc = mmjm_cursed_kris.100.desc
+	theme = intrigue
+	
+	left_portrait = {
+		character = scope:ken_angrok
+		animation = personality_bold
+	}	
+	left_portrait = {
+		character = scope:tunggul_ametung
+		animation = bored
+	}
+	
+	immediate = {
+
+		character:rajasa.1 = {
+			save_scope_as = ken_angrok 
+		}
+
+		character:rajasa.5 = {
+			save_scope_as = tunggul_ametung #Tunggul Ametung
+		}
+	}
+	
+	option = {
+		name = mmjm_cursed_kris.100.option.a
+		trigger_event = mmjm_cursed_kris.200
+	}
+	
+	option = {
+		name = mmjm_cursed_kris.100.option.b
+	}
+}
+
+mmjm_cursed_kris.200 = {
+	type = character_event
+	title = mmjm_cursed_kris.200.t
+	desc = mmjm_cursed_kris.200.desc
+	theme = hunt_activity
+
+	left_portrait = {
+		character = scope:ken_angrok
+		animation = ecstasy
+	}
+	
+	right_portrait = {
+		character = scope:ken_umang
+		animation = flirtation
+	}	
+
+	lower_right_portrait = {
+		character = scope:tunggul_ametung
+		animation = idle
+	}	
+
+	immediate = {
+		character:rajasa.4 = {
+			save_scope_as = ken_umang
+		}		
+	}
+	
+	option = {
+		name = mmjm_cursed_kris.200.option.a
+		trigger_event = mmjm_cursed_kris.300
+	}
+	
+	option = {
+		name = mmjm_cursed_kris.200.option.b
+	}
+}
+
+mmjm_cursed_kris.300 = {
+	type = character_event
+	title = mmjm_cursed_kris.300.t
+	desc = mmjm_cursed_kris.300.desc
+	theme = martial
+
+	left_portrait = {
+		character = scope:ken_angrok
+		animation = scheme
+	}
+	
+#	right_portrait = {
+#		character = scope:mpu_gandring #Mpu Gandring
+#		animation = greedy
+#	}
+	
+	option = {
+		name = mmjm_cursed_kris.300.option.a
+		trigger_event = mmjm_cursed_kris.400
+	}
+	
+	option = {
+		name = mmjm_cursed_kris.300.option.b
+	}
+}
+
+mmjm_cursed_kris.400 = {
+	type = character_event
+	title = mmjm_cursed_kris.400.t
+	desc = mmjm_cursed_kris.400.desc
+	theme = martial
+
+	left_portrait = {
+		character = scope:ken_angrok
+		animation = anger
+	}
+	
+#	right_portrait = {
+#		character = character:rajasa.2 #Mpu Gandring
+#		animation = severelywounded
+#	}
+	
+	option = {
+		name = mmjm_cursed_kris.400.option.a
+		trigger_event = mmjm_cursed_kris.500
+	}
+	
+	option = {
+		name = mmjm_cursed_kris.400.option.b
+	}
+}
+
+mmjm_cursed_kris.500 = {
+	type = character_event
+	title = mmjm_cursed_kris.500.t
+	desc = mmjm_cursed_kris.500.desc
+	theme = murder_scheme
+
+	left_portrait = {
+		character = scope:ken_angrok
+		animation = beg
+	}
+
+#	right_portrait = {
+#		character = scope:kebo_ijo #Kebo Ijo
+#		animation = spymaster
+#	}
+	
+	option = {
+		name = mmjm_cursed_kris.500.option.a
+		trigger_event = mmjm_cursed_kris.600
+	}
+	
+	option = {
+		name = mmjm_cursed_kris.500.option.b
+	}
+}
+
+mmjm_cursed_kris.600 = {
+	type = character_event
+	title = mmjm_cursed_kris.600.t
+	desc = mmjm_cursed_kris.600.desc
+	theme = death
+
+	left_portrait = {
+		character = scope:ken_angrok
+		animation = spymaster
+	}
+
+	right_portrait = {
+		character = scope:tunggul_ametung
+		animation = severelywounded
+	}
+	
+	option = {
+		name = mmjm_cursed_kris.600.option.a
+		trigger_event = mmjm_cursed_kris.700
+	}
+	
+	option = {
+		name = mmjm_cursed_kris.600.option.b
+	}
+}
+
+mmjm_cursed_kris.700 = {
+	type = character_event
+	title = mmjm_cursed_kris.700.t
+	desc = mmjm_cursed_kris.700.desc
+	theme = crown
+
+	left_portrait = {
+		character = scope:ken_umang
+		animation = flirtation_left
+	}
+	
+	right_portrait = {
+		character = scope:ken_angrok
+		animation = personality_zealous
+	}	
+	
+	option = {
+		name = mmjm_cursed_kris.700.option.a
+		trigger_event = mmjm_cursed_kris.800
+	}
+	
+	option = {
+		name = mmjm_cursed_kris.100.option.b
+	}
+}
+
+mmjm_cursed_kris.800 = {
+	type = character_event
+	title = mmjm_cursed_kris.800.t
+	desc = mmjm_cursed_kris.800.desc
+	theme = dynasty
+
+	left_portrait = {
+		character = scope:ken_angrok
+		animation = severlywounded
+	}
+	
+	right_portrait = {
+		character = scope:anusapati #Anusapati
+		animation = spymaster
+	}	
+	
+	lower_center_portrait = {
+		character = scope:panji_tohjaya #Panji Tohjaya
+		animation = spymaster
+	}
+	
+	immediate = {
+	
+		character:rajasa.6 = {
+			save_scope_as = anusapati #Anusapati
+		}
+		
+		character:rajasa.3 = {
+			save_scope_as = panji_tohajaya #Panji Tohajaya
+		}
+	}	
+	
+	option = {
+		name = mmjm_cursed_kris.800.option.a
+		trigger_event = mmjm_cursed_kris.900
+	}
+	
+	option = {
+		name = mmjm_cursed_kris.800.option.b
+	}
+}
+
+mmjm_cursed_kris.900 = {
+	type = character_event
+	title = mmjm_cursed_kris.900.t
+	desc = mmjm_cursed_kris.900.desc
+	theme = murder_scheme
+
+
+	option = {
+		name = mmjm_cursed_kris.900.option.a
+		trigger_event = mmjm_cursed_kris.1000
+	}
+	
+	option = {
+		name = mmjm_cursed_kris.900.option.b
+	}
+}

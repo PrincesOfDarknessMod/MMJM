@@ -91,9 +91,9 @@ rajasa.3 = {
 	}
 }
 
-#Ken Dedes, Wife of Tunggul Ametung & Ken Angrok
+#Ken Umang, Wife of Tunggul Ametung & Ken Angrok
 rajasa.4 = {
-	name = "Ken Dedes"
+	name = "Ken Umang"
 	female = yes
 
 	faith = vajrayana 
@@ -185,7 +185,7 @@ rajasa.6 = {
 	}
 }
 
-#Son of Ken Angrok & Ken Dedes
+#Son of Ken Angrok & Ken Umang
 #Another no name, only known from name, and the fact that his son was co-ruler :c
 #Who ever was writing first chronicle of Rajasa dynasty, i hope he is now in hell
 rajasa.7 = {
