@@ -1095,16 +1095,6 @@ custom_fennoscandia = {
 	}
 }
 
-custom_mmjm_java = {
-	duchies = {
-		#Bali
-		d_bali_id
-		#Jawa
-		d_lumajang d_singhasari d_mataram
-		#Sunda
-		d_galuh d_sunda
-	}
-}
 
 
 ###########################################################################
@@ -1143,7 +1133,7 @@ graphical_mediterranean = {
 graphical_sea = {
 	graphical = yes
 	regions = {
-		custom_mmjm_java world_southeast_asia
+		world_southeast_asia
 	}
 }
 
