@@ -1,11 +1,10 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
-# History database id:560024
-bookmark_mmjm_1280_kertanegara ={
+# History database id:rajasa_11
+bookmark_1280_mjm_kertanegara={
 	type=male
-	id=14824
-	age=0.240000
-	genes={ 		
-		hair_color={ 64 238 64 238 }
+	id=35144
+	age=0.330000
+	genes={ 		hair_color={ 64 238 64 238 }
  		skin_color={ 99 140 99 140 }
  		eye_color={ 40 245 40 245 }
  		gene_chin_forward={ "chin_forward_neg" 112 "chin_forward_neg" 112 }
@@ -92,14 +91,14 @@ bookmark_mmjm_1280_kertanegara ={
  		face_detail_nose_tip_def={ "nose_tip_def" 4 "nose_tip_def" 4 }
  		face_detail_temple_def={ "temple_def" 70 "temple_def" 70 }
  		expression_brow_wrinkles={ "brow_wrinkles_03" 7 "brow_wrinkles_03" 7 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 62 "eye_wrinkles_01" 62 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 249 "eye_wrinkles_01" 62 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 0 "forehead_wrinkles_01" 0 }
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_4" 204 "complexion_4" 204 }
  		gene_height={ "normal_height" 125 "normal_height" 125 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 127 "body_fat_head_fat_medium" 127 }
- 		gene_bs_body_shape={ "body_shape_rectangle_half" 50 "body_shape_rectangle_half" 50 }
- 		gene_bs_bust={ "bust_shape_3_half" 164 "bust_shape_3_half" 164 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 115 "body_fat_head_fat_medium" 127 }
+ 		gene_bs_body_shape={ "body_shape_average" 111 "body_shape_rectangle_half" 50 }
+ 		gene_bs_bust={ "bust_clothes" 164 "bust_shape_3_half" 164 }
  		gene_age={ "old_2" 95 "old_2" 95 }
  		gene_eyebrows_shape={ "close_spacing_avg_thickness" 228 "close_spacing_avg_thickness" 228 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 150 "layer_2_low_thickness" 150 }
@@ -110,19 +109,12 @@ bookmark_mmjm_1280_kertanegara ={
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 198 "normal_eyelashes" 198 }
  		pose={ "" 255 "" 0 }
- 		beards={ "no_beard" 156 "no_beard" 0 }
- 		clothes={ "western_imperial_clothes" 15 "most_clothes" 0 }
- 		hairstyles={ "indian_hairstyles_wavy" 170 "all_hairstyles" 0 }
- 		legwear={ "western_common_legwear" 197 "all_legwear" 0 }
- 		headgear={ "western_high_nobility" 255 "no_headgear" 0 }
+ 		beards={ "indian_beards_curly" 47 "no_beard" 0 }
+ 		clothes={ "mmjm_royalty" 159 "most_clothes" 0 }
+ 		hairstyles={ "indian_hairstyles_wavy" 53 "all_hairstyles" 0 }
+ 		headgear={ "mmjm_royalty" 255 "no_headgear" 0 }
+ 		legwear={ "mmjm_royalty_legwear" 91 "all_legwear" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_headgear=male_headgear_secular_mmjm_royalty_01
-			custom_hair=male_hair_indian_02
-		}
-	}
-
-	entity={ 2268070609 2268070609 }
+	entity={ 979141817 979141817 }
 }
 

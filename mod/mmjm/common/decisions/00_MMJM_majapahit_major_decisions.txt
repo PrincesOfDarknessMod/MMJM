@@ -38,6 +38,7 @@
 
 	effect = {
 		pan_camera_to_title = root.capital_county
+		#play_music_cue = "mx_mood_call_23_veni_part3"
 		create_title_and_vassal_change = {
 			type = created
 			save_scope_as = change

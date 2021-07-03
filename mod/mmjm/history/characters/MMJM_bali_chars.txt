@@ -10,6 +10,11 @@ bali.1 = {
 	culture = bali
 	#faith = ??
 
+	trait = education_martial_3
+	trait = brave
+	trait = just
+	trait = stubborn
+
 	824.1.1 = {
 		birth = yes
 	}
@@ -26,6 +31,11 @@ bali.2 = {
 
 	culture = bali
 	#faith = ??
+
+	trait = education_martial_2
+	trait = ambitious
+	trait = wrathful
+	trait = craven
 
 	856.1.1 = {
 		birth = yes
@@ -44,6 +54,10 @@ bali.3 = {
 	culture = bali
 	#faith = ??
 
+	trait = education_intrigue_3
+	trait = deceitful
+	trait = fickle
+	trait = ambitious
 	884.1.1 = {
 		birth = yes
 	}
@@ -60,6 +74,11 @@ bali.4 = {
 
 	culture = bali
 	#faith = ??
+
+	trait = education_stewardship_4
+	trait = greedy
+	trait = gregarious
+	trait = stubborn
 
 	903.1.1 = {
 		birth = yes
@@ -78,6 +97,11 @@ bali.5 = {
 	culture = bali
 	#faith = ??
 
+	trait = education_martial_2
+	trait = trusting
+	trait = just
+	trait = honest
+
 	913.1.1 = {
 		birth = yes
 	}
@@ -95,6 +119,11 @@ bali.6 = {
 	culture = bali
 	#faith = ??
 
+	trait = education_martial_3
+	trait = impatient
+	trait = just
+	trait = lustful
+
 	920.1.1 = {
 		birth = yes
 	}
@@ -110,6 +139,11 @@ bali.7 = {
 	dynasty = dynn_warmadewa
 
 	female = yes
+
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = lustful
+	trait = compassionate
 
 	culture = bali
 	#faith = ??
@@ -127,6 +161,11 @@ bali.7 = {
 bali.8 = {
 	name = "Sri Wijaya Mahadewi"
 	dynasty = dynn_kadiri #?
+
+	trait = education_learning_4
+	trait = zealous
+	trait = chaste
+	trait = trusting
 
 	female = yes
 
@@ -147,6 +186,11 @@ bali.9 = {
 	name = "Sri Dharmodayana"
 	dynasty = dynn_warmadewa
 
+	trait = education_intrigue_1
+	trait = deceitful
+	trait = lazy
+	trait = trusting
+
 	culture = bali
 	#faith = ??
 
@@ -163,6 +207,11 @@ bali.9 = {
 bali.10 = {
 	name = "Sri Mahendradatta"
 	dynasty = dynn_bedahulu #??
+
+	trait = education_martial_2
+	trait = brave
+	trait = greedy
+	trait = vengeful
 
 	culture = bali
 	#faith = ??
@@ -184,6 +233,10 @@ bali.11 = {
 	culture = bali
 	#faith = ??
 
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = callous
+	trait = patient
 	974.1.1 = {
 		birth = yes
 	}
@@ -203,6 +256,11 @@ bali.12 = {
 	culture = bali
 	#faith = ??
 
+	trait = education_stewardship_2
+	trait = greedy
+	trait = lustful
+	trait = sadistic
+
 	1005.1.1 = {
 		birth = yes
 	}
@@ -219,6 +277,11 @@ bali.13 = {
 
 	culture = bali
 	#faith = ??
+
+	trait = education_intrigue_2
+	trait = trusting
+	trait = generous
+	trait = cynical	
 
 	1031.1.1 = {
 		birth = yes
@@ -237,6 +300,11 @@ bali.14 = {
 	culture = bali
 	#faith = ??
 
+	trait = education_intrigue_4
+	trait = deceitful
+	trait = paranoid
+	trait = cynical	
+
 	1075.1.1 = {
 		birth = yes
 	}
@@ -253,6 +321,11 @@ bali.15 = {
 
 	culture = bali
 	#faith = ??
+
+	trait = education_diplomacy_1
+	trait = shy
+	trait = lazy
+	trait = trusting	
 
 	1099.1.1 = {
 		birth = yes
@@ -271,6 +344,11 @@ bali.16 = {
 	culture = bali
 	#faith = ??
 
+	trait = education_stewardship_3
+	trait = greedy
+	trait = diligent
+	trait = arbitrary
+
 	1133.1.1 = {
 		birth = yes
 	}
@@ -287,6 +365,11 @@ bali.17 = {
 
 	culture = bali
 	#faith = ??
+
+	trait = education_martial_2
+	trait = arrogant
+	trait = just
+	trait = cynical
 
 	1187.1.1 = {
 		birth = yes
@@ -321,6 +404,7 @@ bali.19 = {
 
 	culture = bali
 	#faith = ??
+
 
 	1278.1.1 = {
 		birth = yes

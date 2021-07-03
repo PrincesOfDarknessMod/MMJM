@@ -1,7 +1,8 @@
-﻿k_singjasari = {
+﻿
+k_bali = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 	1279.1.1 = {
-		holder = rajasa_11
+#		holder = rajasa_11
 	}
 }
