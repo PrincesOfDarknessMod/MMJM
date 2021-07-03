@@ -152,7 +152,14 @@
 
        }
 	   10947 = { # b_prambanan
-
+			850.1.1 = { # started by Pikatan
+				holding = church_holding
+				special_building_slot = prambanan_temple_01
+			}
+			900.1.1 = { # completed by king Balitung
+				special_building = prambanan_temple_01
+				religion = shaivism
+			}
        }
 	   10949 = { # b_borobudur
 

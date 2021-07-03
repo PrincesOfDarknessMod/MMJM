@@ -676,8 +676,7 @@ asset = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"building_sea_castle_02_mesh"
-#			"building_sea_castle_03_mesh"
+			"building_sea_castle_03_mesh"
 		}
 		illustration = @holding_illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 2 } }
