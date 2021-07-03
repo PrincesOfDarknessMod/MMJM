@@ -21,7 +21,7 @@ portrait_austronesian_clothing_spouse_trigger = {
 	culture = { portrait_austronesian_clothing_contents_trigger = yes }
 }
 portrait_austronesian_clothing_contents_trigger = {
-	culture_group = culture_group:turkic_group
+	culture_group = culture_group:austronesian_group
 }
 
 graphical_wilderness_forest_jungle_trigger = {
