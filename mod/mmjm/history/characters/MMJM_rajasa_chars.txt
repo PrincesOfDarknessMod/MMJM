@@ -316,7 +316,7 @@ rajasa_11 = {
 	dynasty_house = house_ametung
 	#faith
 	religion = shaivism
-	culture = malay #java_culture
+	culture = java #java_culture
 	father = rajasa_8
 
 	trait = education_learning_3
@@ -331,4 +331,52 @@ rajasa_11 = {
 		death = yes
 	}
 
+}
+
+#Mpu Gandring, Doomed Kris Maker
+rajasa_12 = {
+	name = "Mpu Gandring"
+
+	faith = vaishnavism
+	culture = java
+	disallow_random_traits = yes
+
+	trait = education_stewarship_4 #Master Smith 
+	trait = patient # Good
+	trait = slothful # Not Fast
+	trait = greedy # Not Cheap
+
+
+	#My estimate since well, there is nothing on when he was born.
+	1180.1.1 = {
+		birth = yes
+	}
+
+	1221.12.1 = {
+		death = yes #Killed by Ken Angrok
+	}
+}
+
+#Kebo Ijo, The Patsy
+rajasa_13 = {
+	name = "Kebo Ijo"
+	dynasty = dynn_rajasa
+
+	faith = vaishnavism
+	culture = java
+	disallow_random_traits = yes
+
+	trait = education_diplomacy_1 #Foster Father was an thief
+	trait = trusting #Was was easily conned
+	trait = arrogant #Thinks highly of himself
+	trait = greedy #Greedy, loves to collect krises
+
+	#My estimate since well, there is nothing on when he was born.
+	1179.1.1 = {
+		birth = yes
+	}
+
+	1222.1.2 = {
+		death = yes #Killed by Ken Angrok
+	}
 }
