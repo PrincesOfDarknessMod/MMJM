@@ -63,7 +63,6 @@
 				value = root
 			}			
 		}		
-		set_variable = global_var:GLOBSTATE_fire_nation_reformed
 	}
 
 	cost = {
