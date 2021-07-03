@@ -3,6 +3,31 @@ k_bali = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 	1279.1.1 = {
-#		holder = rajasa_11
+		holder = bali_17
+	}
+}
+
+d_bali_id = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = bali_17
+		liege = k_bali
+	}
+}
+
+c_bali_id = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = bali_17
+	}
+}
+
+c_lombok = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = bali_17
 	}
 }

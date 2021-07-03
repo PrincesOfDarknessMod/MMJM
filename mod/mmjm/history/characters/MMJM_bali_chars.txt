@@ -3,12 +3,12 @@
 #Warmadewa Dynasty
 
 #Ki kayu selem (Kintamani)
-bali.1 = {
+bali_1 = {
 	name = "Ki Kayu"
 	dynasty = dynn_warmadewa
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	trait = education_martial_3
 	trait = brave
@@ -25,12 +25,12 @@ bali.1 = {
 }
 
 #Sri Kesari Warmadewa Singhadwala (Besakih)
-bali.2 = {
+bali_2 = {
 	name = "Sri Kesari"
 	dynasty = dynn_warmadewa
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	trait = education_martial_2
 	trait = ambitious
@@ -47,12 +47,12 @@ bali.2 = {
 }
 
 #Sang Ratu Ungrasena
-bali.3 = {
+bali_3 = {
 	name = "Sang Ratu Ungrasena"
 	dynasty = dynn_warmadewa
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	trait = education_intrigue_3
 	trait = deceitful
@@ -68,12 +68,12 @@ bali.3 = {
 }
 
 #Sri Hari Tabanendra Warmadewa
-bali.4 = {
+bali_4 = {
 	name = "Sri Hari Tabanendra"
 	dynasty = dynn_warmadewa
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	trait = education_stewardship_4
 	trait = greedy
@@ -90,12 +90,12 @@ bali.4 = {
 }
 
 #Sri Subadrika Warmadewa Tabanan - Co-Regent
-bali.5 = {
+bali_5 = {
 	name = "Sri Subadrika"
 	dynasty = dynn_warmadewa
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	trait = education_martial_2
 	trait = trusting
@@ -112,12 +112,12 @@ bali.5 = {
 }
 
 #Sri Candrabhayasingha Warmadewa Tampaksiring
-bali.6 = {
+bali_6 = {
 	name = "Sri Candrabhayasingha"
 	dynasty = dynn_warmadewa
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	trait = education_martial_3
 	trait = impatient
@@ -134,7 +134,7 @@ bali.6 = {
 }
 
 #Sri Janasadhu Warmadewa Bedahulu - Queen
-bali.7 = {
+bali_7 = {
 	name = "Sri Candrabhayasingha"
 	dynasty = dynn_warmadewa
 
@@ -146,7 +146,7 @@ bali.7 = {
 	trait = compassionate
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	937.1.1 = {
 		birth = yes
@@ -158,7 +158,7 @@ bali.7 = {
 }
 
 #Sri Wijaya Mahadewi Kadiri - Queen
-bali.8 = {
+bali_8 = {
 	name = "Sri Wijaya Mahadewi"
 	dynasty = dynn_kadiri #?
 
@@ -170,7 +170,7 @@ bali.8 = {
 	female = yes
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	948.1.1 = {
 		birth = yes
@@ -182,7 +182,7 @@ bali.8 = {
 }
 
 #Sri Dharmodayana Warmadewa (Udayana)
-bali.9 = {
+bali_9 = {
 	name = "Sri Dharmodayana"
 	dynasty = dynn_warmadewa
 
@@ -192,7 +192,7 @@ bali.9 = {
 	trait = trusting
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	971.1.1 = {
 		birth = yes
@@ -204,7 +204,7 @@ bali.9 = {
 }
 
 #Sri Mahendradatta (Sri Gunapriyadharmapatni) Bedahulu
-bali.10 = {
+bali_10 = {
 	name = "Sri Mahendradatta"
 	dynasty = dynn_bedahulu #??
 
@@ -214,7 +214,7 @@ bali.10 = {
 	trait = vengeful
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	971.1.1 = {
 		birth = yes
@@ -226,12 +226,12 @@ bali.10 = {
 }
 
 #Sri Ajnyadewi Kintamani
-bali.11 = {
+bali_11 = {
 	name = "Sri Ajnyadewi Kintamani"
 	dynasty = dynn_warmadewa
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	trait = education_diplomacy_3
 	trait = gregarious
@@ -249,12 +249,12 @@ bali.11 = {
 #Jaya Dynasty
 
 #Sri Suradhipa Bedahulu
-bali.12 = {
+bali_12 = {
 	name = "Sri Suradhipa"
 	dynasty = dynn_bedahulu
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	trait = education_stewardship_2
 	trait = greedy
@@ -271,12 +271,12 @@ bali.12 = {
 }
 
 #Anak Wungsu (Dharmawangsa Wardana Marakata Pangkaja Sthana Uttunggadewa) Tampaksiring
-bali.13 = {
+bali_13 = {
 	name = "Anak Wungsu"
 	dynasty = dynn_tampaksiring
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	trait = education_intrigue_2
 	trait = trusting
@@ -293,12 +293,12 @@ bali.13 = {
 }
 
 #Sakala Indukirana Isanagunadharma Laksmi Dharawijaya Uttunggadewi Tampaksiring
-bali.14 = {
+bali_14 = {
 	name = "Sakala Indukirana Isanagunadharma"
 	dynasty = dynn_tampaksiring
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	trait = education_intrigue_4
 	trait = deceitful
@@ -315,12 +315,12 @@ bali.14 = {
 }
 
 #Jayapangus Kintamani
-bali.15 = {
+bali_15 = {
 	name = "Jayapangus"
 	dynasty = dynn_kintamani
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	trait = education_diplomacy_1
 	trait = shy
@@ -337,12 +337,12 @@ bali.15 = {
 }
 
 #Jayasakti Kintamani
-bali.16 = {
+bali_16 = {
 	name = "Jayasakti"
 	dynasty = dynn_kintamani
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	trait = education_stewardship_3
 	trait = greedy
@@ -359,12 +359,12 @@ bali.16 = {
 }
 
 #Bhatara Sri Parameswara Sri Hyang - Ning Hyang Adidewa Kintamani
-bali.17 = {
+bali_17 = {
 	name = "Bhatara Sri Parameswara"
 	dynasty = dynn_warmadewa
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	trait = education_martial_2
 	trait = arrogant
@@ -381,12 +381,12 @@ bali.17 = {
 }
 
 #Kebo Parud (Kerajaan Singasari-Jawa) Bedahulu
-bali.18 = {
+bali_18 = {
 	name = "Kebo Parud"
 	dynasty = dynn_bedahulu
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 	1279.1.1 = {
 		birth = yes
@@ -398,12 +398,12 @@ bali.18 = {
 }
 
 #Sri Tarunajaya Bedahulu
-bali.19 = {
+bali_19 = {
 	name = "Sri Tarunajaya"
 	dynasty = dynn_bedahulu
 
 	culture = bali
-	#faith = ??
+	faith = shaivism
 
 
 	1278.1.1 = {

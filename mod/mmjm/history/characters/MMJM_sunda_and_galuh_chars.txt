@@ -1,9 +1,10 @@
 
 #Tarusbawa Sunda - king of sunda
-sunda.1 = {
+sunda_1 = {
 	name = "Tarusbawa"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
 	
 	654.1.1 ={
 		birth = yes
@@ -16,10 +17,12 @@ sunda.1 = {
 
 #Wretikandayun Sunda - ruler of Galuh, demanded separation of Galuh from Sunda
 
-sunda.2 = {
+sunda_2 = {
 	name = "Wretikandayun"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	655.1.1 = {
 		birth = yes
 	}
@@ -30,10 +33,12 @@ sunda.2 = {
 }
 
 #Mandiminyak  - ruler of galuh,
-sunda.3 = {
+sunda_3 = {
 	name = "Mandiminyak"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	675.1.1 = {
 		birth = yes
 	}
@@ -44,10 +49,12 @@ sunda.3 = {
 }
 
 #Sena/Bratasena - ruler of galuh, here a Mandiminyak brother
-sunda.4 = {
+sunda_4 = {
 	name = "Sena"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	678.1.1 = {
 		birth = yes
 	}
@@ -58,10 +65,12 @@ sunda.4 = {
 }
 
 #Purbasora - ruler of Galuh - rebelled against sena - grandson of Wretikandayun
-sunda.4 = {
+sunda_4 = {
 	name = "Purbasora"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	676.1.1 = {
 		birth = yes
 	}
@@ -72,10 +81,12 @@ sunda.4 = {
 }
 
 #Ruler of Sunda, Galuh and Mataram son of Sena's sister established mataran kingdom 
-sunda.5 = {
+sunda_5 = {
 	name = "Sanjaya"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	694.1.1 = {
 		birth = yes
 	}
@@ -86,10 +97,12 @@ sunda.5 = {
 }
 
 #Ruler of Sunda and Galuh, son of Sanjaya
-sunda.6 = {
+sunda_6 = {
 	name = "Rakeyan Panaraban"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	712.1.1 = {
 		birth = yes
 	}
@@ -100,20 +113,24 @@ sunda.6 = {
 }
 
 #Ruler of Sunda
-sunda.7 = {
+sunda_7 = {
 	name = "Rakeyan Banga"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	766.1.1 = {
 		death = yes
 	}	
 }
 
 #Ruler of Sunda
-sunda.8 = {
+sunda_8 = {
 	name = "Rakeyan Medang"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	705.1.1 = {
 		birth = yes
 	}
@@ -124,20 +141,24 @@ sunda.8 = {
 }
 
 #Ruler of Sunda
-sunda.9 = {
+sunda_9 = {
 	name = "Prabu Gilingwesi"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	795.1.1 = {
 		death = yes
 	}		
 }
 
 #Ruler of Sunda
-sunda.10 = {
+sunda_10 = {
 	name = "Pucukbumi Darmeswara"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	737.1.1 = {
 		birth = yes
 	}
@@ -148,10 +169,12 @@ sunda.10 = {
 }
 
 #Ruler of Sunda and Galuh
-sunda.11 = {
+sunda_11 = {
 	name = "Prabu Gajah Kulon"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	760.1.1 = {
 		birth = yes
 	}
@@ -162,10 +185,12 @@ sunda.11 = {
 }
 
 #Ruler of Sunda and Galuh
-sunda.12 = {
+sunda_12 = {
 	name = "Prabu Darmaraksa"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	763.1.1 = {
 		birth = yes
 	}
@@ -176,11 +201,11 @@ sunda.12 = {
 }
 
 #Ruler of Sunda
-sunda.13 = {
+sunda_13 = {
 	name = "Windusakti Prabu Dewageng"
 	dynasty = dynn_sunda
 	culture = sunda
-
+	faith = shaivism 
 
 	913.1.1 = {
 		death = yes
@@ -188,10 +213,12 @@ sunda.13 = {
 }
 
 #Ruler of Sunda
-sunda.14 = {
+sunda_14 = {
 	name = "Rakeyan Kemuning Gading"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	848.1.1 = {
 		birth = yes
 	}
@@ -202,20 +229,24 @@ sunda.14 = {
 }
 
 #Ruler of Sunda
-sunda.15 = {
+sunda_15 = {
 	name = "Rakeyan Jayagiri Prabu"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	942.1.1 = {
 		death = yes
 	}		
 }
 
 #Ruler of Sunda
-sunda.16 = {
+sunda_16 = {
 	name = "Prabu Resi Atmayadarma"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	898.1.1 = {
 		birth = yes
 	}
@@ -226,10 +257,11 @@ sunda.16 = {
 }
 
 #Ruler of Sunda
-sunda.17 = {
+sunda_17 = {
 	name = "Limbur Kancana"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
 	906.1.1 = {
 		birth = yes
 	}
@@ -240,10 +272,12 @@ sunda.17 = {
 }
 
 #Ruler of Sunda
-sunda.18 = {
+sunda_18 = {
 	name = "Prabu Munding Ganawirya"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	927.1.1 = {
 		birth = yes
 	}
@@ -254,10 +288,12 @@ sunda.18 = {
 }
 
 #Ruler of Sunda
-sunda.19 = {
+sunda_19 = {
 	name = "Prabu Jayagiri Rakeyan"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	933.1.1 = {
 		birth = yes
 	}
@@ -268,10 +304,12 @@ sunda.19 = {
 }
 
 #Ruler of Sunda
-sunda.20 = {
+sunda_20 = {
 	name = "Prabu Brajawisesa"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	966.1.1 = {
 		birth = yes
 	}
@@ -282,10 +320,12 @@ sunda.20 = {
 }
 
 #Ruler of Sunda
-sunda.21 = {
+sunda_21 = {
 	name = "Prabu Dewa Sanghyang"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	961.1.1 = {
 		birth = yes
 	}
@@ -296,10 +336,12 @@ sunda.21 = {
 }
 
 #Ruler of Sunda & Galuh
-sunda.20 = {
+sunda_20 = {
 	name = "Prabu Sanghyang Ageng"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	968.1.1 = {
 		birth = yes
 	}
@@ -310,10 +352,12 @@ sunda.20 = {
 }
 
 #Ruler of Sunda & Galuh, Offspring of Srivijaya princess and Sunda King, son in-law of King Dharmawangsa of Medang. Proclaimed independence from Srivijaya by assuming the title "Maharaja".
-sunda.21 = {
+sunda_21 = {
 	name = "Prabu Detya Maharaja"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	978.1.1 = {
 		birth = yes
 	}
@@ -324,10 +368,12 @@ sunda.21 = {
 }
 
 #Ruler of Sunda & Galuh
-sunda.22 = {
+sunda_22 = {
 	name = "Dharmaraja"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	1002.1.1 = {
 		birth = yes
 	}
@@ -338,10 +384,12 @@ sunda.22 = {
 }
 
 #Ruler of Sunda & Galuh
-sunda.23 = {
+sunda_23 = {
 	name = "Prabu Langlangbhumi"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	1098.1.1 = {
 		birth = yes
 	}
@@ -352,10 +400,12 @@ sunda.23 = {
 }
 
 #Ruler of Sunda & Galuh
-sunda.24 = {
+sunda_24 = {
 	name = "Rakeyan Jayagiri"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	1108.1.1 = {
 		birth = yes
 	}
@@ -366,10 +416,12 @@ sunda.24 = {
 }
 
 #Ruler of Sunda & Galuh
-sunda.25 = {
+sunda_25 = {
 	name = "Prabu Dharmakusumah"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	1121.1.1 = {
 		birth = yes
 	}
@@ -380,10 +432,12 @@ sunda.25 = {
 }
 
 #Ruler Sunda and Galuhson of Dharmasiksa, married Dyah Lembu Tal of Singhasari, and have a son Wijaya. Jayadharma died in boyhood and Dyah lembu Tal returned to Singhasari. Wijaya later established Majapahit. Rakeyan Saunggalah, Jayadharma's brother, succeeded Dharmasiksa 
-sunda.26 = {
+sunda_26 = {
 	name = "Prabu Guru Dharmasiksa"
 	dynasty = dynn_sunda
 	culture = sunda
+	faith = shaivism 
+	
 	1228.1.1 = {
 		birth = yes
 	}

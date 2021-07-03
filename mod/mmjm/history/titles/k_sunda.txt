@@ -3,6 +3,117 @@ k_sunda = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 	1279.1.1 = {
-#		holder = rajasa_11
+		holder = sunda_26
+	}
+}
+
+k_sunda = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = sunda_26
+	}
+}
+
+d_galuh = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = sunda_26
+		liege = k_sunda
+	}
+}
+
+
+c_bagaluhan = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_galuh
+	}
+}
+
+c_nusalarang = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_galuh
+	}
+}
+
+c_galuh = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = sunda_26
+		liege = d_galuh
+	}
+}
+
+c_pamanukan = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_galuh
+	}
+}
+
+c_galunggung = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_galuh
+	}
+}
+
+
+d_sunda = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = sunda_26
+		liege = k_sunda
+	}
+}
+
+c_parahyangan = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_sunda
+	}
+}
+
+c_pakuanpajajaran = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_sunda
+	}
+}
+
+c_sundakalapa = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = sunda_26
+		liege = d_sunda
+	}
+}
+
+c_banten = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_sunda
+	}
+}
+
+
+c_salakanagara = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_sunda
 	}
 }
