@@ -324,7 +324,7 @@ dwipa_mmjm_bali_kingdom = {
 	tier = kingdom
 	priority = 141
 	cultures = { bali }
-	titles = { k_outer_ajuraan }
+	titles = { k_bali }
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 }
