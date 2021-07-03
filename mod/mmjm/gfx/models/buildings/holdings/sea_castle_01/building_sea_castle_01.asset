@@ -1,7 +1,7 @@
 pdxmesh = {
 	name = "building_sea_castle_01_mesh"
 	file = "building_sea_castle_01.mesh"
-	scale = 1.0
+	scale = 0.9
 
 	meshsettings = {
 		name = "building_sea_castle_01"

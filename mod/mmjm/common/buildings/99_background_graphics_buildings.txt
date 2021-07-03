@@ -62,7 +62,7 @@ walls_01 = {
 			"mena_walls_01_b_mesh"
 
 		}
-		graphical_regions = { graphical_mena graphical_sea }
+		graphical_regions = { graphical_mena }
 	}
 
 	asset = {
@@ -119,7 +119,7 @@ walls_02 = {
 	
 	asset = {
 		type = pdxmesh
-		graphical_regions = { graphical_mena graphical_sea }
+		graphical_regions = { graphical_mena }
 		names = {
 			"mena_walls_02_a_mesh"
 			"mena_walls_02_a_mesh"
