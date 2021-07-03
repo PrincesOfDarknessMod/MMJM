@@ -9,7 +9,7 @@
 	
 	add_accessory_modifiers = {
 		gene = clothes
-		template = mmjm_common
+		template = mmjm_nobility
 	}
 	
 	add_accessory_modifiers = {
