@@ -4143,7 +4143,7 @@ headgear = {
 			base = 0
 			
 			modifier = {
-				add = 90
+				add = 95
 				has_trait = peasant_leader
 				OR = {
 					is_ruler = no
@@ -4161,7 +4161,7 @@ headgear = {
 			}
 			
 			modifier = {
-				add = 20
+				add = 40
 				highest_held_title_tier < tier_county
 				NOR = {
 					AND = {
@@ -4192,9 +4192,15 @@ headgear = {
 		}	
 		weight = {
 			base = 0
-			
 			modifier = {
-				add = 91
+				add = 100
+				OR = {
+					this = character:rajasa_13
+					this = character:rajasa_2
+				}
+			}				
+			modifier = {
+				add = 101
 				OR = {
 					AND = {
 						highest_held_title_tier = tier_county
@@ -4244,9 +4250,14 @@ headgear = {
 		}		
 		weight = {
 			base = 0	
-			
 			modifier = {
-				add = 92
+				add = 100
+				OR = {
+					this = character:rajasa_6
+				}
+			}				
+			modifier = {
+				add = 101
 				OR = {
 					AND = {
 						OR = {
@@ -4297,7 +4308,7 @@ headgear = {
 			base = 0
 				
 			modifier = {
-				add = 100
+				add = 101
 				OR = {
 					this = character:rajasa_5
 					AND = {
@@ -4312,10 +4323,10 @@ headgear = {
 			}		
 			
 			modifier = {
-				add = 93
+				add = 101
 				OR = {
 					AND = {
-						highest_held_title_tier = tier_kingdom
+						highest_held_title_tier >= tier_kingdom
 						NOR = {
 							AND = {
 								has_government = republic_government
@@ -4332,7 +4343,7 @@ headgear = {
 							highest_held_title_tier = tier_barony
 						}
 						primary_spouse = {
-							highest_held_title_tier = tier_kingdom
+							highest_held_title_tier >= tier_kingdom
 							NOR = {
 								AND = {
 								has_government = republic_government
@@ -4360,7 +4371,7 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 101
 				portrait_wear_helmet_trigger = yes
 				portrait_austronesian_clothing_trigger = yes
 

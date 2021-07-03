@@ -1,5 +1,14 @@
 ﻿l_english:
 
+#Decision
+ mmjm_cursed_kris_legend_decision:0 "Cursed Kris of Mpu Gandring Legend"
+ mmjm_cursed_kris_legend_decision_desc: "Go to the temple and learn the legend of the Cursed Kris of Mpu Gandring."
+ mmjm_cursed_kris_legend_decision_tooltip: "Who knows what I might learn?"
+ mmjm_cursed_kris_legend_decision_effect_tooltip:1 "You will be presented with a group of candidates and may accept one as your own child for a prestige fee"
+ mmjm_cursed_kris_legend_decision_confirm:0 "Let's hear this tale."
+ 
+ #Event Chain
+ 
  mmjm_cursed_kris.50.t:0 "Legend of the Cursed Kris of Mpu Gandring"
  mmjm_cursed_kris.50.desc:0 "In the temples of Indonesia, you can hear the tale of the rise of the Kingdom of Singhasari and the Rajasa dynasty. It is a tale of lust, intrigue, ambition and a magical blade.  It is also a lesson of curses and karma. Shall you listen to the tale and take what wisdom you can from it?"
  mmjm_cursed_kris.50.option.a:0 "Hear more of the legend." 

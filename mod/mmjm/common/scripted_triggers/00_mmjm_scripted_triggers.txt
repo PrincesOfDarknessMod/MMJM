@@ -14,10 +14,13 @@
 #
 
 portrait_austronesian_clothing_trigger = {
-	culture_group = culture_group:austronesian_group
+	scope:culture = { portrait_austronesian_clothing_contents_trigger = yes }
 }
 
 portrait_austronesian_clothing_spouse_trigger = {
+	culture = { portrait_austronesian_clothing_contents_trigger = yes }
+}
+portrait_austronesian_clothing_contents_trigger = {
 	culture_group = culture_group:austronesian_group
 }
 
@@ -39,3 +42,35 @@ graphical_garden_jungle_trigger = {
 	}
 }
 
+
+## Overwriting vanilla
+
+should_be_naked_trigger = {
+	# Character must be an adult.
+	is_adult = yes
+
+	# Character must have a valid reasion to be naked.
+	OR = {
+		faith = {
+			has_doctrine_parameter = naked_adherents_active
+		}
+		AND = {
+			faith = {
+				has_doctrine_parameter = naked_priests_active
+			}
+			OR = {
+				ai_zeal >= 50
+				has_trait = devoted
+				has_trait = zealous
+				has_government = theocracy_government
+				has_council_position = councillor_court_chaplain
+			}
+		}
+		has_character_modifier = diplomacy_majesty_4090_no_raiment_modifier # Lunatic event where character goes naked instead of buying new clothes.
+		has_character_flag = is_naked # Special flag used in certain events.
+		AND = {
+			this = character:rajasa_4
+			has_global_variable = variable_mmjm_ken_dedes_bathing		
+		}
+	}
+}

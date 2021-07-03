@@ -3807,7 +3807,7 @@ clothes = {
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mmjm_royalty #mmjm_nobility
+				template = mmjm_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			morph = {
@@ -3826,7 +3826,14 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 90
+				add = 100
+				OR = {
+					this = character:rajasa_13
+					this = character:rajasa_2
+				}
+			}			
+			modifier = {
+				add = 101
 				OR = {
 					AND = {
 						highest_held_title_tier = tier_county
@@ -3870,7 +3877,7 @@ clothes = {
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mmjm_royalty #mmjm_nobility
+				template = mmjm_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			morph = {
@@ -3888,9 +3895,14 @@ clothes = {
 		}		
 		weight = {
 			base = 0
-			
 			modifier = {
-				add = 91
+				add = 100
+				OR = {
+					this = character:rajasa_6
+				}
+			}			
+			modifier = {
+				add = 101
 				OR = {
 					AND = {
 						OR = {
@@ -3968,10 +3980,10 @@ clothes = {
 				}
 			}		
 			modifier = {
-				add = 92
+				add = 101
 				OR = {
 					AND = {
-						highest_held_title_tier = tier_kingdom
+						highest_held_title_tier >= tier_kingdom
 						NOR = {
 							AND = {
 								has_government = republic_government
@@ -3988,7 +4000,7 @@ clothes = {
 							highest_held_title_tier = tier_barony
 						}
 						primary_spouse = {
-							highest_held_title_tier = tier_kingdom
+							highest_held_title_tier >= tier_kingdom
 							NOR = {
 								AND = {
 								has_government = republic_government

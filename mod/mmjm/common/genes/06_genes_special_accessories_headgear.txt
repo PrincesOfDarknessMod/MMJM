@@ -1126,10 +1126,12 @@ accessory_genes = {
 		mmjm_nobility = {
 			index = 79
 			male = {
-				1 = empty # placeholder
+				1 = empty
+				5 = male_headgear_secular_mmjm_high_nobility_01
 			}
 			female = {
-				1 = empty # placeholder
+				1 = empty
+				5 = female_headgear_secular_mmjm_high_nobility_01
 			}
 			boy = male
             girl = female

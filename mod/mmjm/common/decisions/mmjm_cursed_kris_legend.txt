@@ -1,0 +1,27 @@
+﻿
+mmjm_cursed_kris_legend_decision = {
+	picture = "gfx/interface/illustrations/decisions/mmjm_cursed_kris_legend.dds"
+	desc = mmjm_cursed_kris_legend_decision_desc
+	major = yes
+	
+	ai_check_interval = 0
+
+	cooldown = { days = 10 }
+
+	is_shown = {
+		is_ai = no
+	}
+
+	effect = {
+		custom_tooltip = mmjm_cursed_kris_legend_decision_tooltip
+		trigger_event = mmjm_cursed_kris.50
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}	
