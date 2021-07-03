@@ -1,0 +1,167 @@
+﻿
+k_jawa = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = rajasa_11
+	}
+}
+
+d_singhasari = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = rajasa_11
+		liege = k_jawa
+	}
+}
+
+c_madura = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = rajasa_11
+		liege = d_singhasari
+	}
+}
+
+c_pamotan = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_singhasari
+	}
+}
+
+c_kahuripan = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_singhasari
+	}
+}
+
+c_tumapel = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = rajasa_11
+		liege = d_singhasari
+	}
+}
+
+c_trowulan = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = rajasa_11
+		liege = d_singhasari
+	}
+}
+
+c_kadiri = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = rajasa_11
+		liege = d_singhasari
+	}
+}
+
+c_kertabhumi = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_singhasari
+	}
+}
+
+c_matahun = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_singhasari
+	}
+}
+
+c_lasem = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_singhasari
+	}
+}
+
+d_mataram = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		holder = rajasa_11
+		liege = k_jawa
+	}
+}
+
+c_jagaraga = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_mataram
+	}
+}
+
+c_pajang = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_mataram
+	}
+}
+
+c_wengker = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_mataram
+	}
+}
+
+c_mataram  = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_mataram
+		holder = rajasa_11
+	}
+}
+
+c_pandansalas = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_matarami
+	}
+}
+
+c_kalinggapura = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_mataram
+	}
+}
+
+c_paguhan = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_mataram
+	}
+}
+
+c_kembangjenar  = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1279.1.1 = {
+		liege = d_mataram
+	}
+}
