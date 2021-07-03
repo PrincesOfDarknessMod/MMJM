@@ -263,8 +263,25 @@ mmjm_cursed_kris.700 = {
 	
 	right_portrait = {
 		character = scope:ken_angrok
-		animation = personality_zealous
+		animation = personality_bold
 	}	
+
+	lower_center_portrait = {
+		character = character:rajasa_6
+		animation = idle
+	}	
+	
+	lower_left_portrait = {
+		character = character:rajasa_3
+		animation = idle
+	}		
+	
+	lower_right_portrait = {
+		character = character:rajasa_2
+		animation = idle
+	}	
+
+	
 	
 	immediate = {
 		remove_global_variable = variable_mmjm_ken_angrok_common

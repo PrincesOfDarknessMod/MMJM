@@ -4192,7 +4192,13 @@ headgear = {
 		}	
 		weight = {
 			base = 0
-			
+			modifier = {
+				add = 100
+				OR = {
+					this = character:rajasa_13
+					this = character:rajasa_2
+				}
+			}				
 			modifier = {
 				add = 101
 				OR = {
@@ -4244,7 +4250,12 @@ headgear = {
 		}		
 		weight = {
 			base = 0	
-			
+			modifier = {
+				add = 100
+				OR = {
+					this = character:rajasa_6
+				}
+			}				
 			modifier = {
 				add = 101
 				OR = {
