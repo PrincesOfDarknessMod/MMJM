@@ -49,7 +49,7 @@
 
 world_southeast_asia = {
 	duchies = {
-		d_aceh d_amaravati d_andaman_and_nicobar d_aninditapura d_ban_lung d_batak d_battambang d_bengkulu d_berau d_bicol d_bo_ol d_bulgas d_butuo d_cagayan_valley d_can_tho d_champasak d_chiang_mai d_cuiyun d_dabaw d_dagar d_dak_lat d_dali d_dehong d_east_bisaya d_east_isan d_east_thailand d_hai_dong d_honghe d_jambi d_johor d_kagayan d_kalagan d_kapuas d_kapuas_hulu d_kauthura d_kelantan d_kengtung d_ketapang d_koh_kong d_kota_kinabalu d_kotabatu d_kra d_kunming d_kutai_kartanegara d_lampang d_lampung d_langkasuka d_langkat d_little_sumatra d_lo d_lopburi d_luang_prabang d_lupah_sug d_mahakam d_malinau d_masbate d_minangkabau d_minolo d_mnong d_muong d_murung_raya d_myitkyina d_nakhon_pathom d_nakhon_si d_nan d_nong d_north_isan d_north_shan d_pahang d_panay d_pangasinan d_phitsanulok d_pulaoan d_riau d_riau_islands d_samboangan d_sambor d_samtoy d_sap d_sarawak d_savannakhet d_selangor d_son_tay d_south_isan d_south_kalimantan d_south_shan d_south_sumatra d_srey d_sugbu d_tagalog d_tak d_tanintharyi d_tanjungpura d_thaton d_thuan_hoa d_vientiane d_vyadhapura d_xiangkhouang d_lao_nhai d_cu_duc d_cuu_chan d_kinh_bac d_muang_thaeng
+		d_aceh d_amaravati d_andaman_and_nicobar d_aninditapura d_ban_lung d_batak d_battambang d_bengkulu d_berau d_bicol d_bo_ol d_bulgas d_butuo d_cagayan_valley d_can_tho d_champasak d_chiang_mai d_cuiyun d_dabaw d_dagar d_dak_lat d_dali d_dehong d_east_bisaya d_east_isan d_east_thailand d_hai_dong d_honghe d_jambi d_johor d_kagayan d_kalagan d_kapuas d_kapuas_hulu d_kauthura d_kelantan d_kengtung d_ketapang d_koh_kong d_kota_kinabalu d_kotabatu d_kra d_kunming d_kutai_kartanegara d_lampang d_lampung d_langkasuka d_langkat d_little_sumatra d_lo d_lopburi d_luang_prabang d_lupah_sug d_mahakam d_malinau d_masbate d_minangkabau d_minolo d_mnong d_muong d_murung_raya d_myitkyina d_nakhon_pathom d_nakhon_si d_nan d_nong d_north_isan d_north_shan d_pahang d_panay d_pangasinan d_phitsanulok d_pulaoan d_riau d_riau_islands d_samboangan d_sambor d_samtoy d_sap d_sarawak d_savannakhet d_selangor d_son_tay d_south_isan d_south_kalimantan d_south_shan d_south_sumatra d_srey d_sugbu d_tagalog d_tak d_tanintharyi d_tanjungpura d_thaton d_thuan_hoa d_vientiane d_vyadhapura d_xiangkhouang d_lao_nhai d_cu_duc d_cuu_chan d_kinh_bac d_muang_thaeng d_bali_id d_lumajang d_singhasari d_mataram d_galuh d_sunda
 	}
 }
 
@@ -1098,7 +1098,7 @@ custom_fennoscandia = {
 custom_mmjm_java = {
 	duchies = {
 		#Bali
-		d_bali
+		d_bali_id
 		#Jawa
 		d_lumajang d_singhasari d_mataram
 		#Sunda
