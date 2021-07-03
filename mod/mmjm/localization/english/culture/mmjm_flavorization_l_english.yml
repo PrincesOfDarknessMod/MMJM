@@ -1,0 +1,16 @@
+﻿baron_male_mmjm: "Pati"
+baron_female_mmjm: "Pati"
+barony_castle_mmjm: "Karaton"
+barony_city_mmjm: "Wanua"
+barony_temple_mmjm: "Candi"
+
+count_male_mmjm_java_holder: "Bhre [CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+count_female_mmjm_java_holder: "Bhre [CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+count_male_mmjm_java: "Bhre [CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+count_female_mmjm_java: "Bhre [CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+county_mmjm_java: "Watak"
+
+count_male_mmjm_java_independent: "Ratu"
+count_female_mmjm_java_independent: "Ratu"
+county_mmjm_java_independent: "[CHARACTER.Custom('IndepCountyJava')]"
+county_default_mmjm_java: "Karaton"

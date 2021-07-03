@@ -1,0 +1,123 @@
+﻿baron_male_mmjm = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 10
+	cultures = { java sunda bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+baron_female_mmjm = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 10
+	cultures = { java sunda bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+barony_castle_mmjm = {
+	type = title
+	holding = castle_holding
+	priority = 10
+	cultures = { java sunda bali }
+	top_liege = no
+}
+barony_city_mmjm = {
+	type = title
+	holding = city_holding
+	priority = 10
+	cultures = { java sunda bali }
+	top_liege = no
+}
+barony_temple_mmjm = {
+	type = title
+	holding = temple_holding
+	priority = 10
+	cultures = { java sunda bali }
+	top_liege = no
+}
+
+count_male_mmjm_java = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 20
+	cultures = { java }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+count_female_mmjm_java = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 20
+	cultures = { java }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+count_male_mmjm_java_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 21
+	cultures = { java }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_holder = yes
+}
+count_female_mmjm_java_holder = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 21
+	cultures = { java }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_holder = yes
+}
+county_mmjm_java = {
+	type = title
+	tier = county
+	priority = 20
+	cultures = { java }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+count_male_mmjm_java_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 22
+	cultures = { java }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+count_female_mmjm_java_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 22
+	cultures = { java }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+county_mmjm_java_independent = {
+	type = title
+	tier = county
+	priority = 22
+	cultures = { java }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}

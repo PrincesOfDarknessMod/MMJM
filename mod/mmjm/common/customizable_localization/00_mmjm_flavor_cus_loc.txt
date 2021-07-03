@@ -1,0 +1,13 @@
+﻿IndepCountyJava = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_mmjm_java
+	}
+	text = {
+		fallback = yes
+		localization_key = county_default_mmjm_java
+	}
+}
