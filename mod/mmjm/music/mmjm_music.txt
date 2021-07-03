@@ -1,0 +1,92 @@
+﻿#### MMJM MOOD TRACKS
+# Additional mood music when playing as Austronesians
+mood_okrak_okrak = {
+	music = "file:/music/mmjm/01_Gamelan_Nyai_Saraswati_-_Gending_Bonang_OKRAK_OKRAK_Slendro_Nem.mp3"
+	weight = 20
+	mood = yes
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+	is_valid = { culture_group = culture_group:austronesian_group }
+}
+mood_jurudemung = {
+	music = "file:/music/mmjm/01_Gamelan_Nyai_Saraswati_-_Ladrang_JURUDEMUNG.mp3"
+	weight = 20
+	mood = yes
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+	is_valid = { culture_group = culture_group:austronesian_group }
+}
+mood_mirip = {
+	music = "file:/music/mmjm/02_Gamelan_Nyai_Saraswati_-_Ladrang_and_Lancaran_MIRIP.mp3"
+	weight = 20
+	mood = yes
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+	is_valid = { culture_group = culture_group:austronesian_group }
+}
+mood_wilujeng = {
+	music = "file:/music/mmjm/02_Gamelan_Nyai_Saraswati_-_Ladrang_WILUJENG.mp3"
+	weight = 20
+	mood = yes
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+	is_valid = { culture_group = culture_group:austronesian_group }
+}
+mood_moon = {
+	music = "file:/music/mmjm/03_Gamelan_Nyai_Saraswati_-_Gending_MOON.mp3"
+	weight = 20
+	mood = yes
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+	is_valid = { culture_group = culture_group:austronesian_group }
+}
+mood_kandhang_bubrah = {
+	music = "file:/music/mmjm/03_Gamelan_Nyai_Saraswati_-_Lancaran_KANDHANG_BUBRAH.mp3"
+	weight = 20
+	mood = yes
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+	is_valid = { culture_group = culture_group:austronesian_group }
+}
+mood_sri_rejeki = {
+	music = "file:/music/mmjm/04_Gamelan_Nyai_Saraswati_-_Ladrang_SRI_REJEKI_Pelog_Nem.mp3"
+	weight = 20
+	mood = yes
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+	is_valid = { culture_group = culture_group:austronesian_group }
+}
+mood_golek_ayun_ayun = {
+	music = "file:/music/mmjm/04_Gamelan_Nyai_Saraswati_-_Tari_GOLEK_AYUN-AYUN.mp3"
+	weight = 20
+	mood = yes
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+	is_valid = { culture_group = culture_group:austronesian_group }
+}
+mood_asmaradana = {
+	music = "file:/music/mmjm/05_Gamelan_Nyai_Saraswati_-_Ladrang_ASMARADANA_Slendro_Ma.mp3"
+	weight = 20
+	mood = yes
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+	is_valid = { culture_group = culture_group:austronesian_group }
+}
+mood_santi_mulya = {
+	music = "file:/music/mmjm/05_Gamelan_Nyai_Saraswati_-_Ladrang_SANTI_MULYA.mp3"
+	weight = 20
+	mood = yes
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+	is_valid = { culture_group = culture_group:austronesian_group }
+}
+mood_udan_mas = {
+	music = "file:/music/mmjm/06_Gamelan_Nyai_Saraswati_-_Bubaran_UDAN_MAS.mp3"
+	weight = 20
+	mood = yes
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+	is_valid = { culture_group = culture_group:austronesian_group }
+}
+
+
