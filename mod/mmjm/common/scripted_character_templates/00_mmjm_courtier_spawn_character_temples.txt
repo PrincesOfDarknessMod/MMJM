@@ -7,12 +7,20 @@ mmjm_sinic_traveler_template = { # Chinese, Khitan, Vietnamese
 	faith = root.faith
 	after_creation = {
 		random_list = {
-			10 = { add_character_modifier = { modifier = mmjm_chinese_courtier_political_refugee } } # Diplomacy
-			10 = { add_character_modifier = { modifier = mmjm_chinese_courtier_veteran_mercenary } } # Martial
-			10 = { add_character_modifier = { modifier = mmjm_chinese_courtier_trading_entrepreneur } } # Stewardship
-			10 = { add_character_modifier = { modifier = mmjm_chinese_courtier_former_cultist } } # Intrigue
-			10 = { add_character_modifier = { modifier = mmjm_chinese_courtier_scholar_gentry } } # Learning
-			10 = { add_character_modifier = { modifier = mmjm_chinese_courtier_pirate_scoundrel } } # Prowess
+			10 = { add_character_modifier = { modifier = mmjm_sinic_courtier_political_refugee } } # Diplomacy
+			10 = { add_character_modifier = { modifier = mmjm_sinic_courtier_veteran_mercenary } } # Martial
+			10 = { add_character_modifier = { modifier = mmjm_sinic_courtier_trading_entrepreneur } } # Stewardship
+			10 = { add_character_modifier = { modifier = mmjm_sinic_courtier_former_cultist } } # Intrigue
+			10 = { add_character_modifier = { modifier = mmjm_sinic_courtier_scholar_gentry } } # Learning
+			10 = { add_character_modifier = { modifier = mmjm_sinic_courtier_pirate_scoundrel } } # Prowess
+		}
+		# Set religion randomly - Buddhist or Taoist
+		random_list = {
+			10 = { set_character_faith = faith:vajrayana }
+			40 = { set_character_faith = faith:mahayana }
+			10 = { set_character_faith = faith:zhengyi }
+			10 = { set_character_faith = faith:shangqing }
+			10 = { set_character_faith = faith:quanzhen }
 		}
 	}
 }
@@ -73,6 +81,23 @@ mmjm_mideastern_traveler_template = { # Arabs and Persians
 			50 = { set_character_faith = faith:ashari }
 			10 = { set_character_faith = faith:maturidi }
 			20 = { set_character_faith = faith:ismaili }
+		}
+	}
+}
+
+mmjm_indonesian_traveler_template = { # From other Indonesian islands
+	age = { 20 60 }
+	gender_female_chance = 0
+	random_traits = yes
+	faith = root.faith
+	after_creation = {
+		# Set religion randomly - Buddhist or Hindu
+		random_list = {
+			10 = { set_character_faith = faith:vaishnavism }
+			10 = { set_character_faith = faith:shaivism }
+			15 = { set_character_faith = faith:theravada }
+			15 = { set_character_faith = faith:vajrayana }
+			15 = { set_character_faith = faith:mahayana }
 		}
 	}
 }

@@ -1,0 +1,30 @@
+﻿
+
+
+five_year_playable_pulse = {
+	on_actions = {
+		delay = { days = 13 }
+		mmjm_courtier_spawn_pulse
+	}
+}
+
+
+# RICE Flavor Events
+mmjm_courtier_spawn_pulse = {
+	trigger = {
+		is_available = yes
+	}
+	random_events = {
+		chance_of_no_event = {
+			value = 25
+		}
+		
+		1000 = 0
+		
+		100 = mmjm_courtier_spawn.0001	# Sinic Courtier Arrives
+		100 = mmjm_courtier_spawn.0002	# Indian Courtier Arrives
+		100 = mmjm_courtier_spawn.0003	# Mainland SE Asian Courtier Arrives
+		100 = mmjm_courtier_spawn.0004	# Arab/Persian Courtier Arrives
+		100 = mmjm_courtier_spawn.0005	# Indonesian Courtier Arrives
+	}
+}
