@@ -1,0 +1,80 @@
+﻿form_majapahit_empire = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = form_majapahit_empire_desc
+	selection_tooltip = form_majapahit_empire_tooltip
+	major = yes
+
+	ai_check_interval = 36
+
+	is_shown = {
+		is_landed = yes
+		root.primary_title = {
+			target_is_de_jure_liege_or_above = title:e_jawadwipa
+		}
+		OR = {
+			culture = culture:bali
+			culture = culture:java
+			culture = culture:sunda
+			culture = culture:madura
+		}
+	}
+
+	is_valid = {
+		AND = {
+			completely_controls = title:d_lumajang
+			completely_controls = title:d_singhasari
+			completely_controls = title:d_mataram
+		}
+		has_title = title:c_trowulan #Its county of majapahit in game
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_majapahit_empire
+			}
+		}	
+		prestige_level >= 3	
+	}
+
+	effect = {
+		pan_camera_to_title = root.capital_county
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:e_majapahit = {
+			change_title_holder = {
+				holder = root
+				change = scope:change
+			}
+			copy_title_history = root.primary_title
+		}
+		resolve_title_and_vassal_change = scope:change
+		hidden_effect = { 
+			set_primary_title_to = title:e_majapahit 
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_majapahit_empire
+			}
+			set_global_variable = {
+				name = flag_formed_majapahit_empire
+				value = root
+			}			
+		}		
+		set_variable = global_var:GLOBSTATE_fire_nation_reformed
+	}
+
+	cost = {
+		gold = 250
+		prestige = 700
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}	 
