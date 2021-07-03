@@ -73,3 +73,9 @@ d_mongnai = {
     definite_form = yes
     capital = c_mongnai
 }
+e_majapahit = {
+    color = { 130 0 0 }
+    color2 = { 201 201 201 }
+
+    capital = c_majapahit 
+}
