@@ -42,15 +42,18 @@
  mmjm_cursed_kris.600.option.a.tt:0 ""
  mmjm_cursed_kris.600.option.b:0 "I have heard enough, this does not interest me."
  
- mmjm_cursed_kris.700.t:0 "King of Singasari"
- mmjm_cursed_kris.700.desc:0 "And so [ken_angrok.GetFirstName] was able to kill [tunggul_ametung.GetFullName], take [ken_umang.GetFirstName] to be his wife, and proclaim himself the new ruler of Tumapel. Ken Angrok thus founded a new kingdom and started a new dynasty. He took the title Sri Ranggah Rajasa Bhatara Amurwabhumi (The Rainbow King of Universe and All Lands), and his dynasty was called the Rajasa. His new kingdom was centered in Singasari to the east of Kediri."
+ mmjm_cursed_kris.700.t:0 "King of Singhasari"
+ mmjm_cursed_kris.700.desc:0 "And so [ken_angrok.GetFirstName] was able to kill [tunggul_ametung.GetFullName], take [ken_umang.GetFirstName] to be his wife, and proclaim himself the new ruler of Tumapel. Ken Angrok thus founded a new kingdom and started a new dynasty. He took the title Sri Ranggah Rajasa Bhatara Amurwabhumi (The Rainbow King of Universe and All Lands), and his dynasty was called the Rajasa. His new kingdom was centered in Singhasari to the east of Kediri."
  mmjm_cursed_kris.700.option.a:0 "Hear more of the legend" 
  mmjm_cursed_kris.700.option.a.tt:0 ""
  mmjm_cursed_kris.700.option.b:0 "I have heard enough, this does not interest me." 
  
  mmjm_cursed_kris.800.t:0 "The Curse and the Death of Kings"
- mmjm_cursed_kris.800.desc:0 "[ken_angrok.GetFirstName]'s rule however was short. [anusapati.GetFirstName], son of [ken_dedes.GetFirstName] and [tunggul_ametung.GetFullName] and thus Ken Angrok's stepson, had suspected for a long time that Ken Angrok was responsible for his father's death. One day, after finding out the truth, he went after and killed Ken Angrok. Legend says that Anusapati used the kris of [mpu_gandring.GetFirstName] to kill Ken Angrok; the same kris that Ken Angrok used to kill Tunggul Ametung and thus fulfilling the beginning of Mpu Gandring's curse. In the end, Anusapati was also killed by his stepbrother, [panji_tohajaya.GetFirstName] with the same kris. The Kings of Singasari and Mataram are still descendants of Ken Angrok.\n\nThe fate of the Cursed Kris of Mpu Gandring is shrouded in mystery."
+ mmjm_cursed_kris.800.desc:0 "[ken_angrok.GetFirstName]'s rule however was short. [anusapati.GetFirstName], son of [ken_dedes.GetFirstName] and [tunggul_ametung.GetFullName] and thus Ken Angrok's stepson, had suspected for a long time that Ken Angrok was responsible for his father's death. One day, after finding out the truth, he went after and killed Ken Angrok. Legend says that Anusapati used the kris of [mpu_gandring.GetFirstName] to kill Ken Angrok; the same kris that Ken Angrok used to kill Tunggul Ametung and thus fulfilling the beginning of Mpu Gandring's curse. In the end, Anusapati was also killed by his stepbrother, [panji_tohajaya.GetFirstName] with the same kris. The Kings of Singhasari and Mataram are still descendants of Ken Angrok.\n\nThe fate of the Cursed Kris of Mpu Gandring is shrouded in mystery."
  mmjm_cursed_kris.800.option.a:0 "I will find it! I must have this magical blade." 
  mmjm_cursed_kris.800.option.a.tt:0 ""
  mmjm_cursed_kris.800.option.b:0 "A fascinating tale, I will reflect upon its meaning." 
  
+ mmjm_cursed_kris.900.t:0 "The Quest for the Cursed Kris of Mpu Gandring"
+ mmjm_cursed_kris.900.desc:0 "And so a new tale begins and a new legend will be formed."
+ mmjm_cursed_kris.900.option.a:0 "To be continued..." 
