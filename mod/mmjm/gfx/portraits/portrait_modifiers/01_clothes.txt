@@ -3960,7 +3960,7 @@ clothes = {
 					this = character:rajasa_5
 					AND = {
 						this = character:rajasa_4
-						NOT = { has_global_variable = variable_mmjm_ken_umang_bathing }
+						NOT = { has_global_variable = variable_mmjm_ken_dedes_bathing }
 					}
 					AND = {
 						this = character:rajasa_1
