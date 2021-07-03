@@ -191,18 +191,12 @@
 				template = mmjm_common_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
-			# morph = {
-			# 	mode = modify
-			# 	gene = gene_bs_body_shape
-			# 	# value = 0.5
-			# 	template = body_shape_average
-			# }
 		}	
 		
 		weight = {
 			base = 0
 			modifier = {
-				add = 51
+				add = 101
 				highest_held_title_tier < tier_county
 				NOR = {
 					AND = {
@@ -232,19 +226,13 @@
 				template = mmjm_nobility_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
-			# morph = {
-			# 	mode = modify
-			# 	gene = gene_bs_body_shape
-			# 	# value = 0.5
-			# 	template = body_shape_average
-			# }
 		}	
 		
 		weight = {
 			base = 0
 			
 			modifier = {
-				add = 90
+				add = 101
 				OR = {
 					AND = {
 						highest_held_title_tier = tier_county
@@ -282,7 +270,7 @@
 			}		
 			
 			modifier = {
-				add = 91
+				add = 101
 				OR = {
 					AND = {
 						OR = {
@@ -329,19 +317,13 @@
 				template = mmjm_royalty_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
-			# morph = {
-			# 	mode = modify
-			# 	gene = gene_bs_body_shape
-			# 	# value = 0.5
-			# 	template = body_shape_average
-			# }
 		}	
 		
 		weight = {
 			base = 0
 			
 			modifier = {
-				add = 100
+				add = 101
 				OR = {
 					this = character:rajasa_5
 					this = character:rajasa_4
@@ -353,10 +335,10 @@
 			}		
 			
 			modifier = {
-				add = 92
+				add = 101
 				OR = {
 					AND = {
-						highest_held_title_tier = tier_kingdom
+						highest_held_title_tier >= tier_kingdom
 						NOR = {
 							AND = {
 								has_government = republic_government
@@ -373,7 +355,7 @@
 							highest_held_title_tier = tier_barony
 						}
 						primary_spouse = {
-							highest_held_title_tier = tier_kingdom
+							highest_held_title_tier >= tier_kingdom
 							NOR = {
 								AND = {
 								has_government = republic_government
