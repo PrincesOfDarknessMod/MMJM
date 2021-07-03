@@ -1,7 +1,7 @@
 pdxmesh = {
 	name = "building_sea_city_02_mesh"
 	file = "building_sea_city_02.mesh"
-	scale = 0.85
+	scale = 1.0
 
 	meshsettings = {
 		name = "building_sea_city_02"
@@ -14,7 +14,7 @@ pdxmesh = {
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 	meshsettings = {
-		name = "temple_decal"
+		name = "city_decal"
 		index = 0
 		texture_diffuse = "western_city_01_decal_diffuse.dds"
 		texture_normal = "western_city_01_decal_normal.dds"
