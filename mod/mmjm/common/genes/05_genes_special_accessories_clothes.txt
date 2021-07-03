@@ -1330,7 +1330,7 @@ accessory_genes = {
 				}
 
 				female = {
-					1 = female_clothes_secular_mmjm_royalty_01 # placeholder
+					1 = female_clothes_secular_mmjm_common_01
 				}
 				boy = male
 				girl = female
@@ -1340,11 +1340,11 @@ accessory_genes = {
 				index = 73
 
 				male = {	
-					1 = empty
+					1 = male_clothes_secular_mmjm_high_nobility_01
 				}
 
 				female = {
-					1 = female_clothes_secular_mmjm_royalty_01 # placeholder
+					1 = female_clothes_secular_mmjm_high_nobility_01
 				}
 				boy = male
 				girl = female
