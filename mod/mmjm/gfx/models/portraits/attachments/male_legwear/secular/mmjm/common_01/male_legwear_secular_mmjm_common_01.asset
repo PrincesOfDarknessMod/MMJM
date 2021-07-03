@@ -36,39 +36,3 @@ entity = {
 		}
 	}
 }
-
-entity = {
-	name = "male_legwear_secular_mmjm_high_nobility_01_entity"
-	pdxmesh = "male_legwear_secular_mmjm_common_01_mesh"
-
-	attribute = { name = "bs_body_fat_1"				blend_shape = "male_legwear_secular_mmjm_common_01_bs_fat" }
-	attribute = { name = "bs_body_dwarf_1"					blend_shape = "male_legwear_secular_mmjm_common_01_bs_dwarf" }
-	attribute = { name = "bs_body_muscular_1"				blend_shape = "male_legwear_secular_mmjm_common_01_bs_muscular" }
-	attribute = { name = "bs_body_old_1"					blend_shape = "male_legwear_secular_mmjm_common_01_bs_old" }
-	attribute = { name = "bs_body_gaunt_1"					blend_shape = "male_legwear_secular_mmjm_common_01_bs_gaunt" }
-	
-	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_legwear/secular/mmjm/common_01/legwear_mmjm_common_01_masks.dds"
-			variation = "indian_nobility_high_01"
-		}
-	}
-}
-
-entity = {
-	name = "male_legwear_secular_mmjm_royalty_01_entity"
-	pdxmesh = "male_legwear_secular_mmjm_common_01_mesh"
-
-	attribute = { name = "bs_body_fat_1"				blend_shape = "male_legwear_secular_mmjm_common_01_bs_fat" }
-	attribute = { name = "bs_body_dwarf_1"					blend_shape = "male_legwear_secular_mmjm_common_01_bs_dwarf" }
-	attribute = { name = "bs_body_muscular_1"				blend_shape = "male_legwear_secular_mmjm_common_01_bs_muscular" }
-	attribute = { name = "bs_body_old_1"					blend_shape = "male_legwear_secular_mmjm_common_01_bs_old" }
-	attribute = { name = "bs_body_gaunt_1"					blend_shape = "male_legwear_secular_mmjm_common_01_bs_gaunt" }
-	
-	game_data = {
-		portrait_accessory = {
-			pattern_mask = "gfx/models/portraits/attachments/male_legwear/secular/mmjm/common_01/legwear_mmjm_royalty_01_masks.dds"
-			variation = "indian_nobility_high_01"
-		}
-	}
-}

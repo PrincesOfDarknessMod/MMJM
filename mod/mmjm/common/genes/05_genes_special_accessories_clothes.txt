@@ -314,7 +314,6 @@ accessory_genes = {
 				male = {
 					1 = male_clothes_secular_indian_nobility_01_high	
 					1 = male_clothes_secular_indian_nobility_02_high			
-					1 = male_clothes_secular_mmjm_royalty_01
 				}
 
 				female = {
@@ -1318,6 +1317,48 @@ accessory_genes = {
 
 				female = {
 					1 = female_clothes_secular_fp1_war_nobility_01	
+				}
+				boy = male
+				girl = female
+			}
+			
+			mmjm_common = {
+				index = 72
+
+				male = {	
+					1 = empty
+				}
+
+				female = {
+					1 = female_clothes_secular_indian_nobility_01_high # placeholder
+				}
+				boy = male
+				girl = female
+			}
+			
+			mmjm_nobility = {
+				index = 73
+
+				male = {	
+					1 = empty
+				}
+
+				female = {
+					1 = female_clothes_secular_indian_nobility_01_high # placeholder
+				}
+				boy = male
+				girl = female
+			}
+			
+			mmjm_royalty = {
+				index = 74
+
+				male = {	
+					1 = male_clothes_secular_mmjm_royalty_01
+				}
+
+				female = {
+					1 = female_clothes_secular_indian_nobility_01_high # placeholder
 				}
 				boy = male
 				girl = female
