@@ -43,7 +43,7 @@ rajasa_2 = {
 
 	disallow_random_traits = yes
 
-	#faith = ??
+	faith = vaishnavism
 	culture = java
 
 	trait = education_diplomacy_2
@@ -61,11 +61,11 @@ rajasa_2 = {
 
 }
 
-#Tohajaya, Ken Angrok & Ken Umang son, 3rd King
+#Panji Tohjaya, Ken Angrok & Ken Umang son, 3rd King
 rajasa_3 = {
-	name = "Tohajaya"
+	name = "Panji Tohjaya"
 
-	#faith = ??
+	faith = vaishnavism
 	culture = java
 
 	dynasty = dynn_rajasa
@@ -91,9 +91,9 @@ rajasa_3 = {
 	}
 }
 
-#Ken Umang, Wife of Tunggul Ametung & Ken Angrok
+#Ken Dedes, Wife of Tunggul Ametung & Ken Angrok
 rajasa_4 = {
-	name = "Ken Umang"
+	name = "Ken Dedes"
 	female = yes
 
 	faith = vajrayana 
@@ -121,7 +121,7 @@ rajasa_4 = {
 rajasa_5 = {
 	name = "Tunggul"
 
-	#faith = ??
+	faith = vaishnavism
 	culture = java
 
 	dynasty = dynn_ametung
@@ -155,7 +155,7 @@ rajasa_5 = {
 rajasa_6 = {
 	name = "Anusapati"
 
-	#faith = ??
+	faith = vaishnavism
 	culture = java
 
 	dynasty = dynn_rajasa
@@ -191,7 +191,7 @@ rajasa_6 = {
 rajasa_7 = {
 	name = "Mahisa Wong Ateleng"
 
-	#faith = ??
+	faith = vaishnavism
 	culture = java
 	disallow_random_traits = yes
 
@@ -224,8 +224,8 @@ rajasa_8 = {
 	dynasty = dynn_rajasa
 	dynasty_house = house_ametung
 
+	faith = vaishnavism
 	culture = java
-	religion = vaishnavism
 
 	father = rajasa_6
 
@@ -256,7 +256,7 @@ rajasa_9 = {
 	name = "Mahisa Champaka"
 	dynasty = dynn_rajasa
 
-	#faith = ??
+	faith = vaishnavism
 	culture = java
 
 	disallow_random_traits = yes
@@ -286,8 +286,8 @@ rajasa_10 = {
 	dynasty = dynn_rajasa
 	female = yes
 
+	faith = vaishnavism
 	culture = java
-	#faith = 
 
 	trait = beauty_good_1
 

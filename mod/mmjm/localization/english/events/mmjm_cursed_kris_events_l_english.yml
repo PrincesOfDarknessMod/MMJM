@@ -13,7 +13,7 @@
  mmjm_cursed_kris.100.option.b:0 "I have heard enough, this does not interest me."
  
  mmjm_cursed_kris.200.t:0 "Blinded by the Light, Another Runner in the Night"
- mmjm_cursed_kris.200.desc:0 "By chance [ken_angrok.GetFirstName] accidentally saw [ken_umang.GetFirstName], a beautiful wife of [tunggul_ametung.GetFullName], when she was taking a bath. Legend says when the wind blew over her dress and revealed her legs, Ken Angrok said that he saw a beautiful light shining. He later told this to his teacher, who stated that it was a sign that Ken Umang would bear a royal dynasty and any man that took her as wife would be a King. Ken Angrok, already infatuated by her beauty, became even more eager to take her by any means-—including killing Tunggul Ametung if necessary."
+ mmjm_cursed_kris.200.desc:0 "By chance [ken_angrok.GetFirstName] accidentally saw [ken_dedes.GetFirstName], a beautiful wife of [tunggul_ametung.GetFullName], when she was taking a bath. Legend says when the wind blew over her dress and revealed her legs, Ken Angrok said that he saw a beautiful light shining. He later told this to his teacher, who stated that it was a sign that Ken Umang would bear a royal dynasty and any man that took her as wife would be a King. Ken Angrok, already infatuated by her beauty, became even more eager to take her by any means-—including killing Tunggul Ametung if necessary."
  mmjm_cursed_kris.200.option.a:0 "Hear more of the legend" 
  mmjm_cursed_kris.200.option.a.tt:0 ""
  mmjm_cursed_kris.200.option.b:0 "I have heard enough, this does not interest me."
@@ -25,7 +25,7 @@
  mmjm_cursed_kris.300.option.b:0 "I have heard enough, this does not interest me."
 
  mmjm_cursed_kris.400.t:0 "Curse of Mpu Gandring"
- mmjm_cursed_kris.400.desc:0 "[ken_angrok.GetFirstName] became furious on hearing this. Knowing that [ken_umang.GetFirstName] was pregnant, and determined to murder [tunggul_ametung.GetFullName] before his wife gave birth to a possible son and heir, Ken Angrok took the kris from its maker and stabbed [mpu_gandring.GetFirstName]. With his last breath, [mpu_gandring.GetFirstName] famously cursed Ken Angrok, foretelling that he himself and seven generations of his descendants would be killed by that cursed kris."
+ mmjm_cursed_kris.400.desc:0 "[ken_angrok.GetFirstName] became furious on hearing this. Knowing that [ken_dedes.GetFirstName] was pregnant, and determined to murder [tunggul_ametung.GetFullName] before his wife gave birth to a possible son and heir, Ken Angrok took the kris from its maker and stabbed [mpu_gandring.GetFirstName]. With his last breath, [mpu_gandring.GetFirstName] famously cursed Ken Angrok, foretelling that he himself and seven generations of his descendants would be killed by that cursed kris."
  mmjm_cursed_kris.400.option.a:0 "Hear more of the legend" 
  mmjm_cursed_kris.400.option.a.tt:0 ""
  mmjm_cursed_kris.400.option.b:0 "I have heard enough, this does not interest me."
@@ -49,7 +49,7 @@
  mmjm_cursed_kris.700.option.b:0 "I have heard enough, this does not interest me." 
  
  mmjm_cursed_kris.800.t:0 "The Curse and the Death of Kings"
- mmjm_cursed_kris.800.desc:0 "[ken_angrok.GetFirstName]'s rule however was short. [anusapati.GetFirstName], son of [ken_umang.GetFirstName] and [tunggul_ametung.GetFullName] and thus Ken Angrok's stepson, had suspected for a long time that Ken Angrok was responsible for his father's death. One day, after finding out the truth, he went after and killed Ken Angrok. Legend says that Anusapati used the kris of Mpu Gandring to kill Ken Angrok; the same kris that Ken Angrok used to kill Tunggul Ametung and thus fulfilling the beginning of Mpu Gandring's curse. In the end, Anusapati was also killed by his stepbrother, Panji [panji_tohajaya.GetFirstName] with the same kris. The Kings of Singasari and Mataram are still descendants of Ken Angrok.\n\nThe fate of the Cursed Kris of Mpu Gandring is shrouded in mystery."
+ mmjm_cursed_kris.800.desc:0 "[ken_angrok.GetFirstName]'s rule however was short. [anusapati.GetFirstName], son of [ken_dedes.GetFirstName] and [tunggul_ametung.GetFullName] and thus Ken Angrok's stepson, had suspected for a long time that Ken Angrok was responsible for his father's death. One day, after finding out the truth, he went after and killed Ken Angrok. Legend says that Anusapati used the kris of [mpu_gandring.GetFirstName] to kill Ken Angrok; the same kris that Ken Angrok used to kill Tunggul Ametung and thus fulfilling the beginning of Mpu Gandring's curse. In the end, Anusapati was also killed by his stepbrother, [panji_tohajaya.GetFirstName] with the same kris. The Kings of Singasari and Mataram are still descendants of Ken Angrok.\n\nThe fate of the Cursed Kris of Mpu Gandring is shrouded in mystery."
  mmjm_cursed_kris.800.option.a:0 "I will find it! I must have this magical blade." 
  mmjm_cursed_kris.800.option.a.tt:0 ""
  mmjm_cursed_kris.800.option.b:0 "A fascinating tale, I will reflect upon its meaning." 

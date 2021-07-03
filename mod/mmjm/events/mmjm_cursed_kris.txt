@@ -36,7 +36,7 @@ mmjm_cursed_kris.50 = {
 			value = yes
 		}
 		set_global_variable = {
-			name = variable_mmjm_ken_umang_bathing
+			name = variable_mmjm_ken_dedes_bathing
 			value = yes
 		}			
 	}	
@@ -101,7 +101,7 @@ mmjm_cursed_kris.200 = {
 	}
 	
 	right_portrait = {
-		character = scope:ken_umang
+		character = scope:ken_dedes
 		animation = flirtation
 	}	
 
@@ -112,7 +112,7 @@ mmjm_cursed_kris.200 = {
 
 	immediate = {
 		character:rajasa_4 = {
-			save_scope_as = ken_umang
+			save_scope_as = ken_dedes
 		}			
 	}
 	
@@ -126,7 +126,7 @@ mmjm_cursed_kris.200 = {
 	}
 	
 	after = {
-		remove_global_variable = variable_mmjm_ken_umang_bathing
+		remove_global_variable = variable_mmjm_ken_dedes_bathing
 	}
 }
 
@@ -257,7 +257,7 @@ mmjm_cursed_kris.700 = {
 	theme = crown
 
 	left_portrait = {
-		character = scope:ken_umang
+		character = scope:ken_dedes
 		animation = flirtation_left
 	}
 	
