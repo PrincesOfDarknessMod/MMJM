@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
 ## Headgears
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mmjm_royalty_01:0 "@mmjm_icon! Javanese Royal Crown"
@@ -21,4 +21,4 @@
  PORTRAIT_MODIFIER_custom_legwear_girl_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
  
  PORTRAIT_MODIFIER_custom_clothes_male_empty:1 "@mmjm_icon! Shirtless"
- PORTRAIT_MODIFIER_custom_clothes_female_empty:1 "$PORTRAIT_MODIFIER_custom_clothes_male_empty$"
+ PORTRAIT_MODIFIER_custom_clothes_boy_empty:1 "$PORTRAIT_MODIFIER_custom_clothes_male_empty$"
