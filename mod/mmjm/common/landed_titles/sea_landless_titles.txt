@@ -77,5 +77,5 @@ e_majapahit = {
     color = { 130 0 0 }
     color2 = { 201 201 201 }
 
-    capital = c_majapahit 
+    capital = c_trowulan 
 }
