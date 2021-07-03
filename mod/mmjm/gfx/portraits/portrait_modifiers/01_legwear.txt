@@ -317,6 +317,7 @@
 				}
 
 			}
+		}
 	}
 
 	austronesian_royal_legwear = {
@@ -325,7 +326,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = mmjm_royal_legwear
+				template = mmjm_royalty_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			# morph = {

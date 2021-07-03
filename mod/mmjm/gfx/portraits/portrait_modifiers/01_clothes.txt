@@ -3807,7 +3807,7 @@ clothes = {
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mmjm_nobility
+				template = mmjm_royalty #mmjm_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			morph = {
@@ -3870,7 +3870,7 @@ clothes = {
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mmjm_nobility
+				template = mmjm_royalty #mmjm_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			morph = {
@@ -3928,7 +3928,6 @@ clothes = {
 
 			}
 		}
-	}
 
 	austronesian_royalty = {
 		dna_modifiers = {
