@@ -1,5 +1,5 @@
 ﻿form_majapahit_empire = {
-	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	picture = "gfx/interface/illustrations/decisions/mmjm_form_majapahit_empire.dds"
 
 	desc = form_majapahit_empire_desc
 	selection_tooltip = form_majapahit_empire_tooltip
