@@ -65,7 +65,7 @@ mmjm_courtier_spawn.0001 = {
 		}
 		hidden_effect = {
 			random = {
-				chance = 50
+				chance = 40
 				mmjm_generate_small_family = { CHARACTER = scope:mmjm_spawned_courtier }
 			}
 		}
@@ -147,7 +147,7 @@ mmjm_courtier_spawn.0002 = {
 		}
 		hidden_effect = {
 			random = {
-				chance = 50
+				chance = 40
 				mmjm_generate_small_family = { CHARACTER = scope:mmjm_spawned_courtier }
 			}
 		}
@@ -201,7 +201,7 @@ mmjm_courtier_spawn.0003 = {
 		create_character = {
 			template = mmjm_southeast_asian_traveler_template
 			random_culture = {
-				culture:cham = { weight = { base 10 } }
+				#culture:cham = { weight = { base 10 } }
 				culture:burmese = { weight = { base 10 } }
 				#culture:thai = { weight = { base 10 } }
 				#culture:khmer = { weight = { base 10 } }
@@ -225,7 +225,7 @@ mmjm_courtier_spawn.0003 = {
 		}
 		hidden_effect = {
 			random = {
-				chance = 50
+				chance = 40
 				mmjm_generate_small_family = { CHARACTER = scope:mmjm_spawned_courtier }
 			}
 		}
@@ -302,7 +302,7 @@ mmjm_courtier_spawn.0004 = {
 		}
 		hidden_effect = {
 			random = {
-				chance = 50
+				chance = 40
 				mmjm_generate_small_family = { CHARACTER = scope:mmjm_spawned_courtier }
 			}
 		}
@@ -356,13 +356,14 @@ mmjm_courtier_spawn.0005 = {
 		create_character = {
 			template = mmjm_indonesian_traveler_template
 			random_culture = {
-				culture:aceh = { weight = { base 10 } }
-				culture:batak = { weight = { base 10 } }
-				culture:iban = { weight = { base 10 } }
-				culture:tagalog = { weight = { base 10 } }
-				culture:ilokano = { weight = { base 10 } }
-				culture:sunda = { weight = { base 10 } }
-				culture:malay = { weight = { base 10 } }
+				culture:burmese = { weight = { base 10 } } # Temporary
+				#culture:aceh = { weight = { base 10 } }
+				#culture:batak = { weight = { base 10 } }
+				#culture:iban = { weight = { base 10 } }
+				#culture:tagalog = { weight = { base 10 } }
+				#culture:ilokano = { weight = { base 10 } }
+				#culture:sunda = { weight = { base 10 } }
+				#culture:malay = { weight = { base 10 } }
 			}
 			random_traits = yes
 			employer = root
@@ -383,7 +384,7 @@ mmjm_courtier_spawn.0005 = {
 		}
 		hidden_effect = {
 			random = {
-				chance = 50
+				chance = 40
 				mmjm_generate_small_family = { CHARACTER = scope:mmjm_spawned_courtier }
 			}
 		}
