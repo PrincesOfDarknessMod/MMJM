@@ -1,0 +1,24 @@
+﻿
+## d_bali
+   ### c_lombok
+       10905 = { # b_gurun
+            culture = sasak
+            religion = shaivism
+       }
+	   10904 = { # b_saksak
+
+       }
+	   10993 = { # b_lombokmirah
+
+       }
+   ### c_bali_id = {
+       10906 = { # b_gianyar
+            culture = bali
+            religion = shaivism
+       }
+	   10907 = { # b_karangasem
+
+       }
+	   10908 = { # b_buleleng
+
+       }

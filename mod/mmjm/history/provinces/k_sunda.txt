@@ -1,0 +1,128 @@
+﻿
+## d_galuh
+    ### c_bagaluhan
+       10961 = { # b_bagaluhan
+            culture = sunda
+            religion = shaivism
+       }
+	   10962 = { # b_sarayu
+
+       }
+    ### c_nusalarang
+       10964 = { # b_pangandaran
+            culture = sunda
+            religion = shaivism
+       }
+	   10963 = { # b_nusalarang
+
+       }
+
+    ### c_galuh
+       10966 = { # b_kawali
+            culture = sunda
+            religion = shaivism
+       }
+	   10965 = { # b_gunatiga
+
+       }
+	   10967 = { # b_saunggalah
+
+       }
+	   10968 = { # b_cirebon
+
+       }
+	   10969 = { # b_cimanuk
+
+       }
+
+    ### c_pamanukan
+       10970 = { # b_pamanukan
+            culture = sunda
+            religion = shaivism
+       }
+	   10971 = { # b_batujaya
+
+       }
+	   10972 = { # b_guhapawon
+
+       }
+	   10973 = { # b_ciremai
+
+       }
+
+    ### c_galunggung
+       10974 = { # b_galunggung
+            culture = sunda
+            religion = shaivism
+       }
+	   10975 = { # b_sukapura
+
+       }
+	   10976 = { # b_cangkuang
+
+       }
+
+
+## d_sunda
+    ### c_parahyangan
+       10977 = { # b_padalarang
+            culture = sunda
+            religion = shaivism
+       }
+	   10978 = { # b_leuweungsancang
+
+       }
+	   10979 = { # b_jampangkulon
+
+       }
+
+    ### c_pakuanpajajaran
+       10982 = { # b_pakuanpajajaran
+            culture = sunda
+            religion = shaivism
+       }
+	   10980 = { # b_pangrango
+
+       }
+	   10981 = { # b_cibadak
+
+       }
+	   10983 = { # b_citarum
+
+       }
+
+    ### c_sundakalapa
+       10985 = { # b_kalapa
+            culture = sunda
+            religion = shaivism
+       }
+	   10984 = { # b_sundapura
+
+       }
+	   10986 = { # b_tangaram
+
+       }
+
+    ### c_banten
+       10988 = { # b_banten
+            culture = sunda
+            religion = shaivism
+       }
+	   10987 = { # b_pontang
+
+       }
+	   10989 = { # b_bantengirang
+
+       }
+
+    ### c_salakanagara
+       10990 = { # b_pulasari
+            culture = sunda
+            religion = shaivism
+       }
+	   10991 = { # b_pangguyangan
+
+       }
+	   10992 = { # b_ujungkulon
+
+       }

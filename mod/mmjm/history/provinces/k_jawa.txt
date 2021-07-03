@@ -1,0 +1,200 @@
+﻿
+## d_lumajang
+    ### c_wirabhumi
+       10911 = { # b_balambangan
+            culture = java
+            religion = shaivism
+       }
+	   10909 = { # b_alaspurwo
+
+       }
+	   10910 = { # b_merubetiri
+
+       }
+	   10912 = { # b_raung
+
+	   }
+    ### c_pakembangan
+       10914 = { # b_pakembangan
+            culture = madura
+            religion = shaivism
+       }
+	   10913 = { # b_baluran
+
+       }
+	   10915 = { # b_jabung
+
+       }
+    ### c_lumajang
+       10918 = { # b_lumajang
+            culture = java
+            religion = shaivism
+       }
+	   10916 = { # b_argopuro
+
+       }
+	   10917 = { # b_sadeng
+
+       }
+	   10919 = { # b_semeru
+
+       }
+## d_singhasari
+    ### c_madura
+       10922 = { # b_sugenep
+            culture = madura
+            religion = shaivism
+       }
+	   10923 = { # b_sampang
+
+       }
+	   10924 = { # b_bangkalan
+
+       }
+    ### c_pamotan
+       10921 = { # b_pamotan
+            culture = java
+            religion = shaivism
+       }
+	   10920 = { # b_bromo
+
+       }
+    ### c_kahuripan
+       10925 = { # b_kahuripan
+            culture = java
+            religion = shaivism
+       }
+	   10926 = { # b_hujunggaluh
+
+       }
+    ### c_trowulan
+       10928 = { # b_trowulan
+            culture = java
+            religion = shaivism
+       }
+	   10927 = { # b_canggu
+
+       }
+    ### c_tumapel
+       10929 = { # b_tumapel
+            culture = java
+            religion = shaivism
+       }
+	   10930 = { # b_kabalan
+
+       }
+    ### c_kadiri
+       10933 = { # b_daha
+            culture = java
+            religion = shaivism
+       }
+	   10931 = { # b_keling
+
+       }
+	   10932 = { # b_lodaya
+
+       }
+    ### c_kertabhumi
+       10934 = { # b_tegowangi
+            culture = java
+            religion = shaivism
+       }
+	   10935 = { # b_surawana
+
+       }
+    ### c_matahun
+       10937 = { # b_matahun
+            culture = java
+            religion = shaivism
+       }
+	   10936 = { # b_kambangwangi
+
+       }
+    ### c_lasem
+       10938 = { # b_lasem
+            culture = java
+            religion = shaivism
+       }
+	   10939 = { # b_jipang
+
+       }
+## d_mataram = {
+    ### c_jagaraga
+       10940 = { # b_jagaraga
+            culture = java
+            religion = shaivism
+       }
+	   10941 = { # b_lawu
+
+       }
+    ### c_pajang
+       10942 = { # b_pajang
+            culture = java
+            religion = shaivism
+       }
+	   10943 = { # b_sukuh
+
+       }
+    ### c_wengker
+       10944 = { # b_wengker
+            culture = java
+            religion = shaivism
+       }
+	   10945 = { # b_pacitan
+
+       }
+    ### c_mataram
+       10948 = { # b_mataram
+            culture = java
+            religion = shaivism
+       }
+	   10946 = { # b_kidul
+
+       }
+	   10947 = { # b_prambanan
+
+       }
+	   10949 = { # b_borobudur
+
+       }
+	   10950 = { # b_merapi
+
+       }
+    ### c_pandansalas
+       10952 = { # b_pandansalas
+            culture = java
+            religion = shaivism
+       }
+	   10951 = { # b_merbabu
+
+       }
+    ### c_kalinggapura
+       10955 = { # b_kalingga
+            culture = java
+            religion = shaivism
+       }
+	   10953 = { # b_muria
+
+       }
+	   10954 = { # b_mijen
+
+       }
+    ### c_paguhan
+       10957 = { # b_paguhan
+            culture = java
+            religion = shaivism
+       }
+	   10956 = { # b_kedu
+
+       }
+	   10958 = { # b_dieng
+
+       }
+    ### c_kembangjenar
+       10959 = { # b_kembangjenar
+            culture = java
+            religion = shaivism
+       }
+	   10960 = { # b_pamali
+
+       }
