@@ -1,6 +1,6 @@
 ﻿
 
-mmjm_sinic_courtier_template = { # Chinese and Vietnamese
+mmjm_sinic_traveler_template = { # Chinese, Khitan, Vietnamese
 	age = { 20 60 }
 	gender_female_chance = 0
 	random_traits = yes
@@ -17,7 +17,7 @@ mmjm_sinic_courtier_template = { # Chinese and Vietnamese
 	}
 }
 
-mmjm_indian_courtier_template = { # Various Indian cultures
+mmjm_indian_traveler_template = { # Various Indian cultures
 	age = { 20 60 }
 	gender_female_chance = 0
 	random_traits = yes
@@ -45,7 +45,7 @@ mmjm_indian_courtier_template = { # Various Indian cultures
 	}
 }
 
-mmjm_khmer_courtier_template = { # Cambodian cultures
+mmjm_southeast_asian_traveler_template = { # SE Asian cultures
 	age = { 20 60 }
 	gender_female_chance = 0
 	random_traits = yes
@@ -58,6 +58,21 @@ mmjm_khmer_courtier_template = { # Cambodian cultures
 			15 = { set_character_faith = faith:theravada }
 			15 = { set_character_faith = faith:vajrayana }
 			15 = { set_character_faith = faith:mahayana }
+		}
+	}
+}
+
+mmjm_mideastern_traveler_template = { # Arabs and Persians
+	age = { 20 60 }
+	gender_female_chance = 0
+	random_traits = yes
+	faith = root.faith
+	after_creation = {
+		# Set religion randomly - Muslim
+		random_list = {
+			50 = { set_character_faith = faith:ashari }
+			10 = { set_character_faith = faith:maturidi }
+			20 = { set_character_faith = faith:ismaili }
 		}
 	}
 }

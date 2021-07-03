@@ -1,0 +1,259 @@
+﻿###############################################################################
+# 
+# Events for Spawning Courtiers from Off Map Cultures
+# 
+# mmjm_courtier_spawn.0001			Spawn Chinese courtiers
+# 
+###############################################################################
+
+# By Cybrxkhan, creator of the VIET/RICE mods
+
+namespace = mmjm_courtier_spawn
+
+
+
+# Sinic traveler offers services (Chinese, Khitan, Vietnamese, etc.)
+mmjm_courtier_spawn.0001 = {
+	type = character_event
+	title = mmjm_courtier_spawn.0001.t
+	desc = mmjm_courtier_spawn.0001.desc	
+	theme = realm	
+	
+	left_portrait = scope:mmjm_courtier_spawn_happened_flag
+	
+	#trigger = {
+	#	capital_province = {
+	#		RICE_socotra_indian_ocean_port_trigger = yes
+	#	}
+	#}
+	
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = -0.4
+			has_character_flag = mmjm_courtier_spawn_happened_flag
+		}
+		modifier = {
+			add = -0.2
+			AND = {
+				is_ruler = yes
+				has_government = tribal_government
+			}
+		}
+	}
+
+	immediate = {
+		capital_province = { save_scope_as = capital_province } #For loc.
+		add_character_flag = mmjm_courtier_spawn_happened_flag
+		create_character = {
+			template = mmjm_sinic_traveler_template
+			random_culture = {
+				culture:han = { weight = { base 50 } }
+				culture:khitan = { weight = { base 10 } }
+				#culture:vietnamese = { weight = { base 10 } }
+			}
+			random_traits = yes
+			employer = root
+			save_scope_as = mmjm_spawned_courtier
+		}
+	}
+
+	# Okay
+	option = {
+		name = mmjm_courtier_spawn.0001.a
+		pay_short_term_gold = {
+			target = scope:mmjm_spawned_courtier
+			gold = minor_gold_value #minor_gold_value
+		}
+		add_courtier = scope:mmjm_spawned_courtier
+		hidden_effect = {
+			random = {
+				chance = 50
+				RICE_generate_small_family = { CHARACTER = scope:mmjm_spawned_courtier }
+			}
+		}
+	}
+
+	# Not interested
+	option = {
+		name = mmjm_courtier_spawn.0001.b
+		hidden_effect = {
+			random = {
+				chance = 75
+				scope:mmjm_spawned_courtier = {
+					death = {
+						death_reason = death_disappearance
+					}
+				}
+			}
+		}
+	}
+}
+
+
+# Indian traveler offers services
+mmjm_courtier_spawn.0002 = {
+	type = character_event
+	title = mmjm_courtier_spawn.0002.t
+	desc = mmjm_courtier_spawn.0002.desc	
+	theme = realm	
+	
+	left_portrait = scope:mmjm_courtier_spawn_happened_flag
+	
+	#trigger = {
+	#	capital_province = {
+	#		RICE_socotra_indian_ocean_port_trigger = yes
+	#	}
+	#}
+	
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = -0.4
+			has_character_flag = mmjm_courtier_spawn_happened_flag
+		}
+		modifier = {
+			add = -0.2
+			AND = {
+				is_ruler = yes
+				has_government = tribal_government
+			}
+		}
+	}
+
+	immediate = {
+		capital_province = { save_scope_as = capital_province } #For loc.
+		add_character_flag = mmjm_courtier_spawn_happened_flag
+		create_character = {
+			template = mmjm_indian_traveler_template
+			random_culture = {
+				culture:oriya = { weight = { base 10 } }
+				culture:bengali = { weight = { base 10 } }
+				culture:marathi = { weight = { base 10 } }
+				culture:sinhala = { weight = { base 10 } }
+				culture:sindhi = { weight = { base 10 } }
+				culture:gujarati = { weight = { base 10 } }
+				culture:tamil = { weight = { base 30 } }
+				culture:telugu = { weight = { base 30 } }
+				culture:kannada = { weight = { base 30 } }
+			}
+			random_traits = yes
+			employer = root
+			save_scope_as = mmjm_spawned_courtier
+		}
+	}
+
+	# Okay
+	option = {
+		name = mmjm_courtier_spawn.0002.a
+		pay_short_term_gold = {
+			target = scope:mmjm_spawned_courtier
+			gold = minor_gold_value #minor_gold_value
+		}
+		add_courtier = scope:mmjm_spawned_courtier
+		hidden_effect = {
+			random = {
+				chance = 50
+				RICE_generate_small_family = { CHARACTER = scope:mmjm_spawned_courtier }
+			}
+		}
+	}
+
+	# Not interested
+	option = {
+		name = mmjm_courtier_spawn.0002.b
+		hidden_effect = {
+			random = {
+				chance = 75
+				scope:mmjm_spawned_courtier = {
+					death = {
+						death_reason = death_disappearance
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+# Southeast Asian traveler offers services
+mmjm_courtier_spawn.0003 = {
+	type = character_event
+	title = mmjm_courtier_spawn.0003.t
+	desc = mmjm_courtier_spawn.0003.desc	
+	theme = realm	
+	
+	left_portrait = scope:mmjm_courtier_spawn_happened_flag
+	
+	#trigger = {
+	#	capital_province = {
+	#		RICE_socotra_indian_ocean_port_trigger = yes
+	#	}
+	#}
+	
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = -0.4
+			has_character_flag = mmjm_courtier_spawn_happened_flag
+		}
+		modifier = {
+			add = -0.2
+			AND = {
+				is_ruler = yes
+				has_government = tribal_government
+			}
+		}
+	}
+
+	immediate = {
+		capital_province = { save_scope_as = capital_province } #For loc.
+		add_character_flag = mmjm_courtier_spawn_happened_flag
+		create_character = {
+			template = mmjm_indian_traveler_template
+			random_culture = {
+				culture:han = { weight = { base 50 } }
+				culture:khitan = { weight = { base 10 } }
+				#culture:vietnamese = { weight = { base 10 } }
+			}
+			random_traits = yes
+			employer = root
+			save_scope_as = mmjm_spawned_courtier
+		}
+	}
+
+	# Okay
+	option = {
+		name = mmjm_courtier_spawn.0003.a
+		pay_short_term_gold = {
+			target = scope:mmjm_spawned_courtier
+			gold = minor_gold_value #minor_gold_value
+		}
+		add_courtier = scope:mmjm_spawned_courtier
+		hidden_effect = {
+			random = {
+				chance = 50
+				RICE_generate_small_family = { CHARACTER = scope:mmjm_spawned_courtier }
+			}
+		}
+	}
+
+	# Not interested
+	option = {
+		name = mmjm_courtier_spawn.0003.b
+		hidden_effect = {
+			random = {
+				chance = 75
+				scope:mmjm_spawned_courtier = {
+					death = {
+						death_reason = death_disappearance
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
