@@ -4,7 +4,7 @@
 	special = holder
 	tier = barony
 	priority = 110
-	cultures = { java sunda bali }
+	cultures = { java sunda bali madura }
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 }
@@ -14,7 +14,7 @@ baron_female_mmjm = {
 	special = holder
 	tier = barony
 	priority = 110
-	cultures = { java sunda bali }
+	cultures = { java sunda bali madura }
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 }
@@ -23,7 +23,7 @@ barony_castle_mmjm = {
 	holding = castle_holding
 	tier = barony
 	priority = 110
-	cultures = { java sunda bali }
+	cultures = { java sunda bali madura }
 	top_liege = no
 }
 barony_city_mmjm = {
@@ -31,7 +31,7 @@ barony_city_mmjm = {
 	holding = city_holding
 	tier = barony
 	priority = 110
-	cultures = { java sunda bali }
+	cultures = { java sunda bali madura }
 	top_liege = no
 }
 barony_temple_mmjm = {
@@ -39,7 +39,7 @@ barony_temple_mmjm = {
 	holding = temple_holding
 	tier = barony
 	priority = 110
-	cultures = { java sunda bali }
+	cultures = { java sunda bali madura }
 	top_liege = no
 }
 
@@ -49,7 +49,7 @@ count_male_mmjm_java = {
 	special = holder
 	tier = county
 	priority = 120
-	cultures = { java }
+	cultures = { java madura bali }
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 }
@@ -59,7 +59,27 @@ count_female_mmjm_java = {
 	special = holder
 	tier = county
 	priority = 120
-	cultures = { java }
+	cultures = { java madura bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+count_male_mmjm_sunda = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 120
+	cultures = { sunda }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+count_female_mmjm_sunda = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 120
+	cultures = { sunda }
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 }
@@ -69,7 +89,7 @@ count_male_mmjm_java_holder = {
 	special = holder
 	tier = county
 	priority = 121
-	cultures = { java }
+	cultures = { java madura bali }
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 	only_holder = yes
@@ -80,7 +100,7 @@ count_female_mmjm_java_holder = {
 	special = holder
 	tier = county
 	priority = 121
-	cultures = { java }
+	cultures = { java madura bali }
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 	only_holder = yes
@@ -89,7 +109,7 @@ county_mmjm_java = {
 	type = title
 	tier = county
 	priority = 120
-	cultures = { java }
+	cultures = { java sunda madura bali }
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 }
@@ -99,7 +119,7 @@ count_male_mmjm_java_independent = {
 	special = holder
 	tier = county
 	priority = 122
-	cultures = { java }
+	cultures = { java madura }
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 	only_independent = yes
@@ -110,7 +130,29 @@ count_female_mmjm_java_independent = {
 	special = holder
 	tier = county
 	priority = 122
-	cultures = { java }
+	cultures = { java madura }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+count_male_mmjm_bali_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 122
+	cultures = { bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+count_female_mmjm_bali_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 122
+	cultures = { bali }
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 	only_independent = yes
@@ -119,8 +161,217 @@ county_mmjm_java_independent = {
 	type = title
 	tier = county
 	priority = 122
-	cultures = { java }
+	cultures = { java sunda madura bali }
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 	only_independent = yes
+}
+
+
+duke_male_mmjm_java = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 130
+	cultures = { java madura bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+duke_female_mmjm_java = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 130
+	cultures = { java madura bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+duke_male_mmjm_sunda = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 130
+	cultures = { sunda }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+duke_female_mmjm_sunda = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 130
+	cultures = { sunda }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+duchy_mmjm_java = {
+	type = title
+	tier = duchy
+	priority = 130
+	cultures = { java sunda madura bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+duke_male_mmjm_java_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 131
+	cultures = { java madura }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_female_mmjm_java_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 131
+	cultures = { java madura }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_male_mmjm_bali_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 131
+	cultures = { bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_female_mmjm_bali_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 131
+	cultures = { bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duchy_mmjm_java_independent = {
+	type = title
+	tier = duchy
+	priority = 131
+	cultures = { java sunda madura bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+dwipa_mmjm_bali_duchy = {
+	type = title
+	tier = duchy
+	priority = 132
+	cultures = { bali }
+	titles = { d_bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+
+
+king_male_mmjm_java = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 140
+	cultures = { java sunda madura bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+king_female_mmjm_java = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 140
+	cultures = { java sunda madura bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+king_holder_mmjm_bali = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 141
+	cultures = { bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_holder = yes
+}
+kingdom_mmjm_java = {
+	type = title
+	tier = kingdom
+	priority = 140
+	cultures = { java sunda madura }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+dwipa_mmjm_bali_kingdom = {
+	type = title
+	tier = kingdom
+	priority = 141
+	cultures = { bali }
+	titles = { k_outer_ajuraan }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+
+emperor_male_mmjm_java = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 150
+	cultures = { java sunda madura }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+emperor_female_mmjm_java = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 150
+	cultures = { java sunda madura }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+emperor_holder_mmjm_bali = {
+	type = character
+	special = holder
+	tier = empire
+	priority = 151
+	cultures = { bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_holder = yes
+}
+empire_mmjm_java = {
+	type = title
+	tier = empire
+	priority = 150
+	cultures = { java sunda madura }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+}
+dwipa_mmjm_bali_empire = {
+	type = title
+	tier = kingdom
+	priority = 151
+	cultures = { bali }
+	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
 }

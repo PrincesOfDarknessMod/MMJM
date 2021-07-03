@@ -8,6 +8,19 @@
 	}
 	text = {
 		fallback = yes
-		localization_key = county_default_mmjm_java
+		localization_key = barony_castle_mmjm
+	}
+}
+IndepDuchyJava = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_mmjm_java
+	}
+	text = {
+		fallback = yes
+		localization_key = barony_castle_mmjm
 	}
 }
