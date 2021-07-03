@@ -1,4 +1,4 @@
-male_legwear_secular_mmjm_common_01 = {
+﻿male_legwear_secular_mmjm_common_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = 
 	male_legwear_secular_mmjm_common_01_entity }
 }
