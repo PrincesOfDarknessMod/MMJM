@@ -328,13 +328,17 @@ mmjm_cursed_kris.900 = {
 	desc = mmjm_cursed_kris.900.desc
 	theme = murder_scheme
 
-
-	option = {
-		name = mmjm_cursed_kris.900.option.a
-		trigger_event = mmjm_cursed_kris.1000
+	left_portrait = {
+		character = root
+		animation = personality_bold
 	}
 	
 	option = {
-		name = mmjm_cursed_kris.900.option.b
+		name = mmjm_cursed_kris.900.option.a
+		#trigger_event = mmjm_cursed_kris.1000
 	}
+	
+#	option = {
+#		name = mmjm_cursed_kris.900.option.b
+#	}
 }
