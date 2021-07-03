@@ -1,8 +1,8 @@
 # The Cursed Kris of Mpu Gandring https://en.wikipedia.org/wiki/Ken_Arok#Kris_of_Mpu_Gandring
 
 # Events for The Cursed Kris of Mpu Gandring
-	#50 Legend of theCursed Kris of Mpu Gandring
-	#100 Ken Arok Gives Up Crime to Get a Real Job
+	#50 Legend of the Cursed Kris of Mpu Gandring
+	#100 Get a Real Job
 	#200 Blinded by the Light, Another Runner in the Night
 	#300 The Kris of Mpu Gandring
 	#400 Curse of Mpu Gandring
@@ -48,21 +48,21 @@ mmjm_cursed_kris.100 = {
 	theme = peasant
 	
 	left_portrait = {
-		character = scope:ken_angrok
+		character = character:rajasa_1 #scope:ken_angrok
 		animation = personality_bold
 	}	
 	right_portrait = {
-		character = scope:tunggul_ametung
+		character = character:rajasa_5 #scope:tunggul_ametung
 		animation = bored
 	}
 	
 	immediate = {
 
-		character:rajasa.1 = {
+		character:rajasa_1 = {
 			save_scope_as = ken_angrok 
 		}
 
-		character:rajasa.5 = {
+		character:rajasa_5 = {
 			save_scope_as = tunggul_ametung #Tunggul Ametung
 		}
 	}
@@ -100,7 +100,7 @@ mmjm_cursed_kris.200 = {
 	}	
 
 	immediate = {
-		character:rajasa.4 = {
+		character:rajasa_4 = {
 			save_scope_as = ken_umang
 		}		
 	}
@@ -153,7 +153,7 @@ mmjm_cursed_kris.400 = {
 	}
 	
 #	right_portrait = {
-#		character = character:rajasa.2 #Mpu Gandring
+#		character = character:rajasa_2 #Mpu Gandring
 #		animation = severelywounded
 #	}
 	
@@ -171,7 +171,7 @@ mmjm_cursed_kris.500 = {
 	type = character_event
 	title = mmjm_cursed_kris.500.t
 	desc = mmjm_cursed_kris.500.desc
-	theme = murder_scheme
+	theme = hunt_activity
 
 	left_portrait = {
 		character = scope:ken_angrok
@@ -268,11 +268,11 @@ mmjm_cursed_kris.800 = {
 	
 	immediate = {
 	
-		character:rajasa.6 = {
+		character:rajasa_6 = {
 			save_scope_as = anusapati #Anusapati
 		}
 		
-		character:rajasa.3 = {
+		character:rajasa_3 = {
 			save_scope_as = panji_tohajaya #Panji Tohajaya
 		}
 	}	

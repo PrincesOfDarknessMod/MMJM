@@ -7,7 +7,7 @@ bali.1 = {
 	name = "Ki Kayu"
 	dynasty = dynn_warmadewa
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	824.1.1 = {
@@ -24,7 +24,7 @@ bali.2 = {
 	name = "Sri Kesari"
 	dynasty = dynn_warmadewa
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	856.1.1 = {
@@ -41,7 +41,7 @@ bali.3 = {
 	name = "Sang Ratu Ungrasena"
 	dynasty = dynn_warmadewa
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	884.1.1 = {
@@ -58,7 +58,7 @@ bali.4 = {
 	name = "Sri Hari Tabanendra"
 	dynasty = dynn_warmadewa
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	903.1.1 = {
@@ -75,7 +75,7 @@ bali.5 = {
 	name = "Sri Subadrika"
 	dynasty = dynn_warmadewa
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	913.1.1 = {
@@ -92,7 +92,7 @@ bali.6 = {
 	name = "Sri Candrabhayasingha"
 	dynasty = dynn_warmadewa
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	920.1.1 = {
@@ -111,7 +111,7 @@ bali.7 = {
 
 	female = yes
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	937.1.1 = {
@@ -130,7 +130,7 @@ bali.8 = {
 
 	female = yes
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	948.1.1 = {
@@ -147,7 +147,7 @@ bali.9 = {
 	name = "Sri Dharmodayana"
 	dynasty = dynn_warmadewa
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	971.1.1 = {
@@ -164,7 +164,7 @@ bali.10 = {
 	name = "Sri Mahendradatta"
 	dynasty = dynn_bedahulu #??
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	971.1.1 = {
@@ -181,7 +181,7 @@ bali.11 = {
 	name = "Sri Ajnyadewi Kintamani"
 	dynasty = dynn_warmadewa
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	974.1.1 = {
@@ -200,7 +200,7 @@ bali.12 = {
 	name = "Sri Suradhipa"
 	dynasty = dynn_bedahulu
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	1005.1.1 = {
@@ -217,7 +217,7 @@ bali.13 = {
 	name = "Anak Wungsu"
 	dynasty = dynn_tampaksiring
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	1031.1.1 = {
@@ -234,7 +234,7 @@ bali.14 = {
 	name = "Sakala Indukirana Isanagunadharma"
 	dynasty = dynn_tampaksiring
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	1075.1.1 = {
@@ -251,7 +251,7 @@ bali.15 = {
 	name = "Jayapangus"
 	dynasty = dynn_kintamani
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	1099.1.1 = {
@@ -268,7 +268,7 @@ bali.16 = {
 	name = "Jayasakti"
 	dynasty = dynn_kintamani
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	1133.1.1 = {
@@ -285,7 +285,7 @@ bali.17 = {
 	name = "Bhatara Sri Parameswara"
 	dynasty = dynn_warmadewa
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	1187.1.1 = {
@@ -302,7 +302,7 @@ bali.18 = {
 	name = "Kebo Parud"
 	dynasty = dynn_bedahulu
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	1279.1.1 = {
@@ -319,7 +319,7 @@ bali.19 = {
 	name = "Sri Tarunajaya"
 	dynasty = dynn_bedahulu
 
-	culture = bali_culture
+	culture = bali
 	#faith = ??
 
 	1278.1.1 = {
