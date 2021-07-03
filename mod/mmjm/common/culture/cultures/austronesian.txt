@@ -1,4 +1,4 @@
-austronesian_group = {
+﻿austronesian_group = {
 
 	graphical_cultures = {
 		burman_group_coa_gfx dravidian_group_coa_gfx indo_aryan_group_coa_gfx
