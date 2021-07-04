@@ -27,17 +27,14 @@ prambanan_temple_01 = {
 	}
 	show_disabled = yes
 
-	character_modifier = { # copy of brihadeeswarar_temple_01
-		monthly_piety = 0.25
-		monthly_dynasty_prestige_mult = 0.05
-		same_faith_opinion = 5
+	character_modifier = {
+		monthly_piety = 0.1
+		monthly_dynasty_prestige_mult = 0.01
 		stewardship_per_piety_level = 1
 	}
 
 	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.1
+		tax_mult = 0.05
 	}
 
 	ai_value = {
@@ -73,15 +70,15 @@ borobudur_temple_01 = {
 	}
 	show_disabled = yes
 
-	character_modifier = { # copy of buddhas_of_bamian_01
-		monthly_piety_gain_mult = 0.1
+	character_modifier = {
 		diplomacy_per_piety_level = 1
+		same_faith_opinion = 5
 	}
 
 	county_modifier = {
-		tax_mult = 0.1
-		development_growth = 0.2
-		development_growth_factor = 0.75
+		tax_mult = 0.05
+		development_growth_factor = 0.05
+		development_growth = 0.1
 	}
 
 	ai_value = {
