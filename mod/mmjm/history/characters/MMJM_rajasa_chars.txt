@@ -214,7 +214,7 @@ rajasa_7 = {
 		birth = yes
 	}
 
-	1456.1.1 = {
+	1256.1.1 = {
 		death = yes
 	}
 }
@@ -259,6 +259,8 @@ rajasa_9 = {
 
 	faith = vaishnavism
 	culture = java
+	
+	father = rajasa_7
 
 	disallow_random_traits = yes
 
@@ -267,7 +269,7 @@ rajasa_9 = {
 	trait = gregarious
 	trait = patient
 
-	1239.1.1 = {
+	1219.1.1 = {
 		birth = yes
 	}
 	1250.1.1 = {
@@ -275,7 +277,7 @@ rajasa_9 = {
 			set_name = "Narasimhamurti"
 		}
 	}
-	1287.1.1 = {
+	1279.1.1 = {
 		death = yes
 	}
 
@@ -289,23 +291,19 @@ rajasa_10 = {
 
 	faith = vaishnavism
 	culture = java
+	
+	father = rajasa_9
 
 	trait = beauty_good_1
-
-	1272.1.1 = {
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = arrogant
+	
+	1252.1.1 = {
 		birth = yes
 	}
-	1280.1.1 = {
-		trait = bossy
-		trait = charming
-		trait = just
-	}
-	1288.1.1 = {
-		trait = education_diplomacy_3
-		trait = gregarious
-		trait = arrogant
-	}
-	1330.1.1 = {
+	
+	1300.1.1 = {
 		death = yes
 	}
 }
@@ -363,7 +361,6 @@ rajasa_12 = {
 #Kebo Ijo, The Patsy
 rajasa_13 = {
 	name = "Kebo Ijo"
-	dynasty = dynn_rajasa
 
 		
 	culture = java
@@ -381,5 +378,67 @@ rajasa_13 = {
 
 	1222.1.2 = {
 		death = yes #Killed by Ken Angrok
+	}
+}
+
+#Turukbali, Jayakatwang's wife
+rajasa_14 = {
+	name = "Turukbali"
+	female = yes
+	
+	dynasty = dynn_rajasa
+	dynasty_house = house_ametung
+	
+	#faith
+	religion = shaivism
+	culture = java #java_culture
+	father = rajasa_8
+
+	trait = education_learning_3
+	trait = ambitious
+	trait = deceitful
+	trait = arrogant
+
+	1255.1.1 = {
+		birth = yes
+	}
+	1279.1.1 = {
+		effect = {
+			marry = isyana_12
+		}
+	}
+	1293.1.1 = {
+		death = yes
+	}
+}
+
+#Raden Wijaya, founder of Majapahit
+rajasa_15 = {
+	name = "Raden Wijaya"
+	dynasty = dynn_rajasa
+
+	faith = vaishnavism
+	culture = java
+	
+	mother = rajasa_10
+
+	trait = beauty_good_1
+	trait = intellect_good_3
+
+	1272.1.1 = {
+		birth = yes
+	}
+	1280.1.1 = {
+		trait = bossy
+		trait = charming
+		trait = just
+	}
+	1288.1.1 = {
+		trait = education_diplomacy_3
+		trait = gregarious
+		trait = ambitious
+	}
+	1330.1.1 = {
+		death = yes
 	}
 }
