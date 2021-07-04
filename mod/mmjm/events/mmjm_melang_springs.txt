@@ -1,0 +1,78 @@
+﻿###############################################################################
+# 
+# Visit the Malang Springs (aka Tumapel)
+# 
+###############################################################################
+
+namespace = mmjm_malang_springs
+
+# Setup activity
+mmjm_malang_springs.0001 = {
+	hidden = yes	
+	immediate = {
+		# Stop characters from planning multiple activities at once
+		add_character_flag = planning_an_activity
+		# Choose appropriate location
+		title:b_tumapel.title_province = {	
+			spawn_activity = {
+				owner = root
+				type = activity_malang_springs_visit
+			}	
+		}
+	}
+}
+
+
+# Day of the Springs visit
+mmjm_malang_springs.0002 = {
+	type = character_event
+	title = mmjm_malang_springs.0002.t
+	desc = mmjm_malang_springs.0002.desc
+	theme = physical_health
+	override_background = {
+		event_background = wilderness_jungle
+	}
+	
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	
+	immediate = {
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}	
+	}
+	
+	option = { # Stress loss
+		name = mmjm_malang_springs.0002.a
+		stress_impact = {
+			base = medium_stress_impact_loss
+		}
+	}	
+	option = { # Piety
+		name = mmjm_malang_springs.0002.b
+		add_piety = 75
+	}	
+	option = { # Prestige
+		name = mmjm_malang_springs.0002.c
+		add_prestige = 75
+	}
+	
+	after = {
+		trigger_event = {
+			id = mmjm_malang_springs.0003
+			days = 1
+		}
+	}	
+}
+
+
+mmjm_malang_springs.0003 = {
+	hidden = yes	
+	immediate = {
+		scope:activity = {
+			complete_activity = yes
+		}
+	}
+}

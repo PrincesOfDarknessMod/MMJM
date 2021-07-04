@@ -1,0 +1,65 @@
+﻿
+
+
+mmjm_malang_springs_visit = {
+	picture = "gfx/interface/illustrations/decisions/mmjm_visit_malang_springs.dds"
+	desc = mmjm_malang_springs_visit_desc
+
+	ai_check_interval = 40
+	
+	cooldown = { days = 3650 }
+
+	is_shown = {
+		is_landed = yes
+		title:c_tumapel = {
+			squared_distance = {
+				target = root.capital_province
+				value <= squared_distance_small
+			}
+		}
+	}
+
+	is_valid = {
+		custom_description = {
+			text = "mmjm_malang_close_req"
+			title:c_tumapel = {
+				squared_distance = {
+					target = root.capital_province
+					value <= squared_distance_small
+				}
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+	}
+
+	cost = {
+		gold = {
+			value = minor_gold_value
+		}
+	}
+	
+	ai_potential = {
+		short_term_gold > minor_gold_value
+	}
+
+	effect = {
+
+		custom_tooltip = mmjm_malang_springs_visit_effect_tooltip
+		
+		trigger_event = mmjm_malang_springs.0001
+
+		add_to_list = notification_sent
+	}
+
+	ai_will_do = {
+		base = 30
+		modifier = {
+			add = 10
+			has_trait = lazy
+		}
+	}
+}

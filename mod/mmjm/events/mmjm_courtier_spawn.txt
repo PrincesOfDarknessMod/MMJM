@@ -3,6 +3,10 @@
 # Events for Spawning Courtiers from Off Map Cultures
 # 
 # mmjm_courtier_spawn.0001			Spawn Sinic courtiers
+# mmjm_courtier_spawn.0002			Spawn Indian courtiers
+# mmjm_courtier_spawn.0003			Spawn Arab courtiers
+# mmjm_courtier_spawn.0004			Spawn Persian courtiers
+# mmjm_courtier_spawn.0005			Spawn Nomad courtiers
 # 
 ###############################################################################
 

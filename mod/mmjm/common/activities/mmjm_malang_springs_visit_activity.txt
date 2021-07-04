@@ -1,0 +1,22 @@
+﻿
+
+activity_malang_springs_visit = {
+	solo = yes
+	frame = 1
+	color = { 0.22 0.53 0.57 1 } # Blue Green
+	on_spawn = {
+		invite_character_to_activity = activity_owner
+		accept_invitation_for_character = activity_owner
+	}
+	on_activate = {
+		activity_owner = {
+			trigger_event = mmjm_malang_springs.0002
+		}
+	}
+	on_complete = {
+		activity_owner = {
+			remove_character_flag = planning_an_activity
+		}	
+	}
+}
+
