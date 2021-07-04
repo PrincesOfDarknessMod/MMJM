@@ -150,7 +150,7 @@ mmjm_courtier_spawn.0002 = {
 
 	# Okay
 	option = {
-		name = mmjm_courtier_spawn.0002.a
+		name = mmjm_courtier_spawn.0001.a
 		pay_short_term_gold = {
 			target = scope:mmjm_spawned_courtier
 			gold = minor_gold_value #minor_gold_value
@@ -169,7 +169,7 @@ mmjm_courtier_spawn.0002 = {
 
 	# Not interested
 	option = {
-		name = mmjm_courtier_spawn.0002.b
+		name = mmjm_courtier_spawn.0001.b
 		hidden_effect = {
 			random = {
 				chance = 75
@@ -234,7 +234,7 @@ mmjm_courtier_spawn.0003 = {
 
 	# Okay
 	option = {
-		name = mmjm_courtier_spawn.0003.a
+		name = mmjm_courtier_spawn.0001.a
 		pay_short_term_gold = {
 			target = scope:mmjm_spawned_courtier
 			gold = minor_gold_value #minor_gold_value
@@ -253,7 +253,7 @@ mmjm_courtier_spawn.0003 = {
 
 	# Not interested
 	option = {
-		name = mmjm_courtier_spawn.0003.b
+		name = mmjm_courtier_spawn.0001.b
 		hidden_effect = {
 			random = {
 				chance = 75
@@ -317,7 +317,7 @@ mmjm_courtier_spawn.0004 = {
 
 	# Okay
 	option = {
-		name = mmjm_courtier_spawn.0004.a
+		name = mmjm_courtier_spawn.0001.a
 		pay_short_term_gold = {
 			target = scope:mmjm_spawned_courtier
 			gold = minor_gold_value #minor_gold_value
@@ -336,7 +336,7 @@ mmjm_courtier_spawn.0004 = {
 
 	# Not interested
 	option = {
-		name = mmjm_courtier_spawn.0004.b
+		name = mmjm_courtier_spawn.0001.b
 		hidden_effect = {
 			random = {
 				chance = 75
@@ -402,7 +402,7 @@ mmjm_courtier_spawn.0005 = {
 
 	# Okay
 	option = {
-		name = mmjm_courtier_spawn.0005.a
+		name = mmjm_courtier_spawn.0001.a
 		pay_short_term_gold = {
 			target = scope:mmjm_spawned_courtier
 			gold = minor_gold_value #minor_gold_value
@@ -421,7 +421,7 @@ mmjm_courtier_spawn.0005 = {
 
 	# Not interested
 	option = {
-		name = mmjm_courtier_spawn.0005.b
+		name = mmjm_courtier_spawn.0001.b
 		hidden_effect = {
 			random = {
 				chance = 75
