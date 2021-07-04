@@ -107,28 +107,28 @@ mmjm_connections_with_sinosphere = {
 	#diplomacy = 2
 	learning = 1
 }
-mmjm_connections_with_mainland_southeast_asia = {
+mmjm_connections_with_nomads = {
 	icon = letter_positive
 	martial_per_prestige_level = 1
 	#martial = 2
 	diplomacy = 1
 }
-mmjm_connections_with_middle_east = {
+mmjm_connections_with_arabia = {
 	icon = letter_positive
 	stewardship_per_prestige_level = 1
 	#stewardship = 2
 	intrigue = 1
 }
-mmjm_connections_with_indonesian_islands = {
+mmjm_connections_with_persia = {
 	icon = letter_positive
 	intrigue_per_prestige_level = 1
 	#intrigue = 2
-	martial = 1
+	stewardship = 1
 }
 mmjm_connections_with_india = {
 	icon = letter_positive
 	learning_per_prestige_level = 1
 	#learning = 2
-	stewardship = 1
+	martial = 1
 }
 

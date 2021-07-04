@@ -2,14 +2,13 @@
 # 
 # Events for Spawning Courtiers from Off Map Cultures
 # 
-# mmjm_courtier_spawn.0001			Spawn Chinese courtiers
+# mmjm_courtier_spawn.0001			Spawn Sinic courtiers
 # 
 ###############################################################################
 
 # By Cybrxkhan, creator of the VIET/RICE mods
 
 namespace = mmjm_courtier_spawn
-
 
 
 # Sinic traveler offers services (Chinese, Khitan, Vietnamese, etc.)
@@ -35,6 +34,14 @@ mmjm_courtier_spawn.0001 = {
 			}
 		}
 	}
+	
+	trigger = {
+		NOR = {
+			culture_group = culture_group:vietic_group
+			culture_group = culture_group:chinese_group
+			culture = culture:khitan
+		}
+	}
 
 	immediate = {
 		capital_province = { save_scope_as = capital_province } #For loc.
@@ -43,11 +50,11 @@ mmjm_courtier_spawn.0001 = {
 			template = mmjm_sinic_traveler_template
 			random_culture = {
 				culture:han = { weight = { base 50 } }
-				culture:khitan = { weight = { base 10 } }
-				#culture:vietnamese = { weight = { base 10 } }
+				culture:khitan = { weight = { base 15 } }
+				culture:kinh = { weight = { base 15 } }
 			}
 			random_traits = yes
-			employer = root
+			location = root.location
 			save_scope_as = mmjm_spawned_courtier
 		}
 	}
@@ -111,6 +118,13 @@ mmjm_courtier_spawn.0002 = {
 			}
 		}
 	}
+	
+	trigger = {
+		NOR = {
+			culture_group = culture_group:indo_aryan_group
+			culture_group = culture_group:dravidian_group
+		}
+	}
 
 	immediate = {
 		capital_province = { save_scope_as = capital_province } #For loc.
@@ -129,7 +143,7 @@ mmjm_courtier_spawn.0002 = {
 				culture:kannada = { weight = { base 30 } }
 			}
 			random_traits = yes
-			employer = root
+			location = root.location
 			save_scope_as = mmjm_spawned_courtier
 		}
 	}
@@ -171,7 +185,8 @@ mmjm_courtier_spawn.0002 = {
 
 
 
-# Mainland Southeast Asian traveler offers services
+
+# Arab traveler offers services
 mmjm_courtier_spawn.0003 = {
 	type = character_event
 	title = mmjm_courtier_spawn.0003.t
@@ -194,20 +209,25 @@ mmjm_courtier_spawn.0003 = {
 			}
 		}
 	}
+	
+	trigger = {
+		NOT = {
+			culture_group = culture_group:arabic_group
+		}
+	}
 
 	immediate = {
 		capital_province = { save_scope_as = capital_province } #For loc.
 		add_character_flag = mmjm_courtier_spawn_happened_flag
 		create_character = {
-			template = mmjm_southeast_asian_traveler_template
+			template = mmjm_arab_traveler_template
 			random_culture = {
-				#culture:cham = { weight = { base 10 } }
-				culture:burmese = { weight = { base 10 } }
-				#culture:thai = { weight = { base 10 } }
-				#culture:khmer = { weight = { base 10 } }
+				culture:levantine = { weight = { base 10 } }
+				culture:yemeni = { weight = { base 10 } }
+				culture:bedouin = { weight = { base 10 } }
 			}
 			random_traits = yes
-			employer = root
+			location = root.location
 			save_scope_as = mmjm_spawned_courtier
 		}
 	}
@@ -221,7 +241,7 @@ mmjm_courtier_spawn.0003 = {
 		}
 		add_courtier = scope:mmjm_spawned_courtier
 		add_character_modifier = {
-			modifier = mmjm_connections_with_mainland_southeast_asia
+			modifier = mmjm_connections_with_arabia
 		}
 		hidden_effect = {
 			random = {
@@ -247,9 +267,7 @@ mmjm_courtier_spawn.0003 = {
 	}
 }
 
-
-
-# Arab/Persian traveler offers services
+# Persian traveler offers services
 mmjm_courtier_spawn.0004 = {
 	type = character_event
 	title = mmjm_courtier_spawn.0004.t
@@ -272,19 +290,27 @@ mmjm_courtier_spawn.0004 = {
 			}
 		}
 	}
+	
+	trigger = {
+		NOT = {
+			culture_group = culture_group:iranian_group
+		}
+	}
 
 	immediate = {
 		capital_province = { save_scope_as = capital_province } #For loc.
 		add_character_flag = mmjm_courtier_spawn_happened_flag
 		create_character = {
-			template = mmjm_mideastern_traveler_template
+			template = mmjm_persian_traveler_template
 			random_culture = {
-				culture:levantine = { weight = { base 10 } }
-				culture:yemeni = { weight = { base 10 } }
-				culture:persian = { weight = { base 15 } }
+				culture:persian = { weight = { base 50 } }
+				culture:tajik = { weight = { base 10 } }
+				culture:khwarezmian = { weight = { base 10 } }
+				culture:daylamite = { weight = { base 10 } }
+				culture:kurdish = { weight = { base 10 } }
 			}
 			random_traits = yes
-			employer = root
+			location = root.location
 			save_scope_as = mmjm_spawned_courtier
 		}
 	}
@@ -298,7 +324,7 @@ mmjm_courtier_spawn.0004 = {
 		}
 		add_courtier = scope:mmjm_spawned_courtier
 		add_character_modifier = {
-			modifier = mmjm_connections_with_middle_east
+			modifier = mmjm_connections_with_persia
 		}
 		hidden_effect = {
 			random = {
@@ -325,8 +351,7 @@ mmjm_courtier_spawn.0004 = {
 }
 
 
-
-# Indonesian traveler offers services
+# Nomad traveler offers services
 mmjm_courtier_spawn.0005 = {
 	type = character_event
 	title = mmjm_courtier_spawn.0005.t
@@ -349,24 +374,28 @@ mmjm_courtier_spawn.0005 = {
 			}
 		}
 	}
+	
+	trigger = {
+		NOT = {
+			culture_group = culture_group:mongolic_group
+		}
+	}
 
 	immediate = {
 		capital_province = { save_scope_as = capital_province } #For loc.
 		add_character_flag = mmjm_courtier_spawn_happened_flag
 		create_character = {
-			template = mmjm_indonesian_traveler_template
+			template = mmjm_nomad_traveler_template
 			random_culture = {
-				culture:burmese = { weight = { base 10 } } # Temporary
-				#culture:aceh = { weight = { base 10 } }
-				#culture:batak = { weight = { base 10 } }
-				#culture:iban = { weight = { base 10 } }
-				#culture:tagalog = { weight = { base 10 } }
-				#culture:ilokano = { weight = { base 10 } }
-				#culture:sunda = { weight = { base 10 } }
-				#culture:malay = { weight = { base 10 } }
+				culture:mongol = { weight = { base 50 } }
+				culture:jurchen = { weight = { base 10 } }
+				culture:buryat = { weight = { base 10 } }
+				culture:oirat = { weight = { base 10 } }
+				culture:naiman = { weight = { base 10 } }
+				culture:kerait = { weight = { base 10 } }
 			}
 			random_traits = yes
-			employer = root
+			location = root.location
 			save_scope_as = mmjm_spawned_courtier
 		}
 	}
@@ -378,9 +407,9 @@ mmjm_courtier_spawn.0005 = {
 			target = scope:mmjm_spawned_courtier
 			gold = minor_gold_value #minor_gold_value
 		}
-		add_courtier = scope:mmjm_spawned_courtier		
+		add_courtier = scope:mmjm_spawned_courtier
 		add_character_modifier = {
-			modifier = mmjm_connections_with_indonesian_islands
+			modifier = mmjm_connections_with_nomads
 		}
 		hidden_effect = {
 			random = {
@@ -405,6 +434,4 @@ mmjm_courtier_spawn.0005 = {
 		}
 	}
 }
-
-
 
