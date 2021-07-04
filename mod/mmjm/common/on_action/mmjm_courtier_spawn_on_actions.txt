@@ -21,7 +21,7 @@ mmjm_courtier_spawn_pulse = {
 			value = 25
 		}
 		
-		1 = 0
+		3000 = 0
 		
 		100 = mmjm_courtier_spawn.0001	# Sinic Courtier Arrives
 		100 = mmjm_courtier_spawn.0002	# Indian Courtier Arrives
