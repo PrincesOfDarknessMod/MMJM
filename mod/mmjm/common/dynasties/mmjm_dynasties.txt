@@ -6,3 +6,15 @@ dynn_rajasa = {
 	motto = dynn_rajasa_motto
 }
 
+dynn_warmadewa = {
+	name= "dynn_warmadewa"
+	culture = "bali"
+	motto = dynn_warmadewaa_motto
+}
+
+dynn_sunda = {
+	name= "dynn_sunda"
+	culture = "sunda"
+	motto = dynn_sunda_motto
+}
+
