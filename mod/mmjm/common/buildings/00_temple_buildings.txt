@@ -578,7 +578,7 @@ temple_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_indian_temple_generic_02_mesh"
+		name = "building_sea_temple_02_mesh"
 		illustration = @illustration_generic_arid
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
 		graphical_regions = { "graphical_sea" }
@@ -626,7 +626,7 @@ temple_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_indian_temple_dharmic_02_mesh"
+		name = "building_sea_temple_02_mesh"
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "dharmic_gfx" }
@@ -667,7 +667,7 @@ temple_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_indian_temple_dharmic_02_mesh"
+		name = "building_sea_temple_02_mesh"
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "orthodox_gfx" }
@@ -708,7 +708,7 @@ temple_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_indian_temple_dharmic_02_mesh"
+		name = "building_sea_temple_02_mesh"
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "catholic_gfx" }
@@ -820,7 +820,7 @@ temple_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_indian_temple_generic_02_mesh"
+		name = "building_sea_temple_02_mesh"
 		illustration = @illustration_generic_arid
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
 		graphical_regions = { "graphical_sea" }
@@ -868,7 +868,7 @@ temple_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_indian_temple_dharmic_02_mesh"
+		name = "building_sea_temple_02_mesh"
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "dharmic_gfx" }
@@ -909,7 +909,7 @@ temple_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_indian_temple_dharmic_02_mesh"
+		name = "building_sea_temple_02_mesh"
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "orthodox_gfx" }
@@ -950,7 +950,7 @@ temple_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_indian_temple_dharmic_02_mesh"
+		name = "building_sea_temple_02_mesh"
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "catholic_gfx" }
