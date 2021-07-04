@@ -6,7 +6,7 @@ prambanan_temple_01 = {
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
 	type_icon = "icon_structure_brihadeeswarar_temple.dds"
-
+	
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -27,7 +27,7 @@ prambanan_temple_01 = {
 	}
 	show_disabled = yes
 
-	character_modifier = {
+	character_modifier = { # copy of brihadeeswarar_temple_01
 		monthly_piety = 0.25
 		monthly_dynasty_prestige_mult = 0.05
 		same_faith_opinion = 5
@@ -38,6 +38,50 @@ prambanan_temple_01 = {
 		tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.1
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+}
+
+
+borobudur_temple_01 = {
+	construction_time = very_slow_construction_time
+	cost_gold = 1000
+	type_icon = "icon_structure_buddhas_of_bamiyan.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			culture = {
+				has_innovation = innovation_manorialism
+			}
+		}
+	}
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+	show_disabled = yes
+
+	character_modifier = { # copy of buddhas_of_bamian_01
+		monthly_piety_gain_mult = 0.1
+		diplomacy_per_piety_level = 1
+	}
+
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth = 0.2
+		development_growth_factor = 0.75
 	}
 
 	ai_value = {

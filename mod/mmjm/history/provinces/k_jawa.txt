@@ -145,11 +145,12 @@
        }
     ### c_mataram
        10948 = { # b_mataram
+			holding = castle # capital of county
             culture = java
             religion = shaivism
        }
 	   10946 = { # b_kidul
-
+			holding = none # Matt note: doesn't seem to be important.
        }
 	   10947 = { # b_prambanan
 			850.1.1 = { # started by Pikatan
@@ -162,10 +163,17 @@
 			}
        }
 	   10949 = { # b_borobudur
-
+			750.1.1 = { # started by Sailendra dynasty
+				holding = church_holding
+				special_building_slot = borobudur_temple_01
+			}
+			825.1.1 = { # completed after 75y by Samaratungga
+				special_building = borobudur_temple_01
+				religion = ari
+			}
        }
 	   10950 = { # b_merapi
-
+			holding = none # volcano
        }
     ### c_pandansalas
        10952 = { # b_pandansalas
