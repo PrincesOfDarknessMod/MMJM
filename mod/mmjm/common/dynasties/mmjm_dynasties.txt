@@ -18,3 +18,14 @@ dynn_sunda = {
 	motto = dynn_sunda_motto
 }
 
+dynn_isyana = {
+	name= "dynn_isyana"
+	culture = "java"
+	motto = dynn_isyana_motto
+}
+
+dynn_madura = {
+	name= "dynn_madura"
+	culture = "java"
+	motto = dynn_madura_motto
+}
