@@ -1,0 +1,8 @@
+﻿# Canon dynasties
+
+dynn_rajasa = {
+	name= "dynn_rajasa"
+	culture = "java"
+	motto = dynn_rajasa_motto
+}
+
