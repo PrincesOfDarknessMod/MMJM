@@ -1095,7 +1095,17 @@ custom_fennoscandia = {
 	}
 }
 
-
+custom_mmjm_islam_spread = {
+	duchies = {
+		d_langkat
+		d_aceh
+		d_riau
+		d_jambi
+		d_riau_islands
+		d_johor
+		d_selangor
+	}
+}
 
 ###########################################################################
 # Graphical Regions

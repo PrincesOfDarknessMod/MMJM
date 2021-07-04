@@ -1,0 +1,53 @@
+namespace = islam
+
+islam.0001 = {
+	hidden = yes
+	type = empty
+
+	immediate = {
+		random_county_in_region = {
+			region = custom_mmjm_islam_spread
+
+			set_county_faith = faith:muwalladi 
+			holder = {
+				if = {
+					limit = {
+						NOT = {
+							has_religion = religion:islam_religion
+						}
+					}
+					trigger_event = {
+						id = islam.0002
+					}
+				}
+			}
+		}
+	}
+}
+
+islam.0002 = {
+	title = islam.0002.t
+	desc = islam.0002.desc
+	scope = character
+	theme = diplomacy
+	override_background = {
+		event_background = throne_room
+	}
+
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+
+	option = {
+		name = islam.0002.option.a
+		add_prestige = 500
+		add_piety = -100
+		set_character_faith = faith:muwalladi
+	}
+	option = {
+		name = islam.0002.option.b
+		add_prestige = -250
+		add_piety = 300
+	}
+}

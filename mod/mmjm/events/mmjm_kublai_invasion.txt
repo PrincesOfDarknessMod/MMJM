@@ -1,0 +1,376 @@
+namespace = kublai
+
+kublai.0001 = {
+	title = kublai.0001.t
+	desc = kublai.0001.desc
+	scope = character
+	theme = diplomacy
+	override_background = {
+		event_background = throne_room
+	}
+	immediate = {
+		set_global_variable = {
+			name = mongol_majapahit
+			value = yes
+		}
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	right_portrait = {
+		character = title:k_mongolia.holder
+		animation = anger
+	}
+
+	option = {
+		name = kublai.0001.option.a
+		custom_tooltip = "You reject the call which may lead to serious consequences"
+		add_prestige = 250
+		add_piety = 100
+		trigger_event = {
+			id = kublai.0002
+			years = 1
+		}
+		ai_chance = { base = 10 }
+	}
+	option = {
+		name = kublai.0001.option.b
+
+		create_title_and_vassal_change = {
+            type = usurped
+            save_scope_as = change
+            add_claim_on_loss = no
+        }
+		every_held_title = {
+			limit = {
+				tier >= tier_kingdom
+			}
+			change_title_holder = {
+				holder = title:k_mongolia.holder
+				change = scope:change
+			}
+		}
+		change_liege = {
+			liege = title:k_mongolia.holder
+			change = scope:change
+		}
+		resolve_title_and_vassal_change = scope:change
+		add_prestige = -250
+		ai_chance = { base = 0.5 }
+	}
+}
+
+kublai.0002 = {
+	title = kublai.0002.t
+	desc = kublai.0002.desc
+	scope = character
+	theme = diplomacy
+	override_background = {
+		event_background = throne_room
+	}
+	immediate = {
+		set_global_variable = {
+			name = mongol_majapahit
+			value = yes
+		}
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	right_portrait = {
+		character = title:k_mongolia.holder
+		animation = anger
+	}
+
+	option = {
+		name = kublai.0002.option.a
+		custom_tooltip = "You reject the call the 2nd time which may lead to serious consequences"
+		add_prestige = 250
+		add_piety = 100
+		trigger_event = {
+			id = kublai.0003
+			years = {5 7}
+		}
+		ai_chance = { base = 10 }
+	}
+	option = {
+		name = kublai.0002.option.b
+
+		create_title_and_vassal_change = {
+            type = usurped
+            save_scope_as = change
+            add_claim_on_loss = no
+        }
+		every_held_title = {
+			limit = {
+				tier >= tier_kingdom
+			}
+			change_title_holder = {
+				holder = title:k_mongolia.holder
+				change = scope:change
+			}
+		}
+		change_liege = {
+			liege = title:k_mongolia.holder
+			change = scope:change
+		}
+		resolve_title_and_vassal_change = scope:change
+		add_prestige = -250
+		ai_chance = { base = 0.5 }
+	}
+}
+
+kublai.0003 = {
+	title = kublai.0003.t
+	desc = kublai.0003.desc
+	scope = character
+	theme = diplomacy
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	right_portrait = {
+		character = title:k_mongolia.holder
+		animation = anger
+	}
+
+	option = {
+		name = kublai.0003.option.a
+		custom_tooltip = "you injure the emissary angering the khan"
+		add_prestige = 500
+		add_piety = 150
+		save_scope_as = khan_target
+		if = {
+			limit = {
+				NOT = {
+					exists = scope:khan_target
+				}
+			}
+			save_scope_as = khan_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					exists = scope:khan_target_2
+				}
+			}
+			save_scope_as = khan_targe_2
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					exists = scope:khan_target_3
+				}
+			}
+			save_scope_as = khan_target_3
+		}
+		add_pressed_claim = d_tanjungpura
+		add_pressed_claim = d_ketapang
+		add_pressed_claim = d_kapuas
+		add_pressed_claim = d_south_kalimantan
+		spawn_army = {
+			name = "Javanese Invaders"
+			levies = 1000
+			men_at_arms = {
+				type = bowmen
+				stacks = 10
+			}
+			men_at_arms = {
+				type = light_horsemen
+				stacks = 10
+			}
+			location = root.capital_province
+		}
+
+		trigger_event = {
+			id = kublai.0007
+			years = {5 7}
+		}
+		
+		ai_chance = { base = 5 }
+	}
+	option = {
+		name = kublai.0003.option.b
+
+		create_title_and_vassal_change = {
+            type = usurped
+            save_scope_as = change
+            add_claim_on_loss = no
+        }
+		every_held_title = {
+			limit = {
+				tier >= tier_kingdom
+			}
+			change_title_holder = {
+				holder = title:k_mongolia.holder
+				change = scope:change
+			}
+		}
+		change_liege = {
+			liege = title:k_mongolia.holder
+			change = scope:change
+		}
+		resolve_title_and_vassal_change = scope:change
+		add_prestige = -250
+		ai_chance = { base = 0.5 }
+	}
+}
+
+kublai.0004 = {
+	title = kublai.0004.t
+	desc = kublai.0004.desc
+	scope = character
+	theme = diplomacy
+	trigger = {
+		exists = scope:khan_target
+	}
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+	right_portrait = {
+		character = scope:khan_target
+		animation = fear
+	}
+
+	option = {
+		name = kublai.0004.option.a
+		start_war = {
+			cb = mongol_invasion_war
+			target = scope:khan_target
+			target_title = scope:khan_target.primary_title
+		}
+		spawn_army = {
+			name = "Mongol Invaders"
+			levies = 1000
+			men_at_arms = {
+				type = bowmen
+				stacks = 10
+			}
+			men_at_arms = {
+				type = light_horsemen
+				stacks = 10
+			}
+			location = title:b_singapur.title_province
+		}
+		clear_saved_scope = scope:khan_target
+	}
+
+}
+
+kublai.0005 = {
+	title = kublai.0005.t
+	desc = kublai.0005.desc
+	scope = character
+	theme = diplomacy
+	trigger = {
+		exists = scope:khan_target_2
+	}
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+	right_portrait = {
+		character = scope:khan_target_2
+		animation = fear
+	}
+
+	option = {
+		name = kublai.0005.option.a
+		start_war = {
+			cb = mongol_invasion_war
+			target = scope:khan_target_2
+			target_title = scope:khan_target.primary_title
+		}
+		spawn_army = {
+			name = "Mongol Invaders"
+			levies = 1000
+			men_at_arms = {
+				type = bowmen
+				stacks = 10
+			}
+			men_at_arms = {
+				type = light_horsemen
+				stacks = 10
+			}
+			location = title:b_singapur.title_province
+		}
+		clear_saved_scope = scope:khan_target_2
+	}
+
+}
+
+kublai.0006 = {
+	title = kublai.0006.t
+	desc = kublai.0006.desc
+	scope = character
+	theme = diplomacy
+	trigger = {
+		exists = scope:khan_target_3
+	}
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+	right_portrait = {
+		character = scope:khan_target_3
+		animation = fear
+	}
+
+	option = {
+		name = kublai.0006.option.a
+		start_war = {
+			cb = mongol_invasion_war
+			target = scope:khan_target_3
+			target_title = scope:khan_target.primary_title
+		}
+		spawn_army = {
+			name = "Mongol Invaders"
+			levies = 1000
+			men_at_arms = {
+				type = bowmen
+				stacks = 10
+			}
+			men_at_arms = {
+				type = light_horsemen
+				stacks = 10
+			}
+			location = title:b_singapur.title_province
+		}
+		clear_saved_scope = scope:khan_target_3
+	}
+
+}
+
+kublai.0007 = {
+	hidden = yes
+	scope = character
+
+	immediate = {
+		title:k_mongolia.holder = {
+			trigger_event = {
+				id = kublai.0004
+			}
+			trigger_event = {
+				id = kublai.0005
+			}
+			trigger_event = {
+				id = kublai.0006
+			}
+		}
+	}
+}
